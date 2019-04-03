@@ -1,0 +1,563 @@
+@charset "utf-8";
+/*首页头部*/
+body{
+	font-size: 12px;
+    font-family: "宋体";
+    color: #333;
+}
+a:hover{text-decoration: none;}
+
+.vanclHead{width:100%;height:auto;}
+
+.vanclHead .headerBox{width:100%;height:32px;background:#f7f7f7;}
+.vanclHead .headerBox .headerTop{width:1200px;height:32px;border-bottom:1px solid #ccc;}
+.vanclHead .headerBox .headerTop .headerTopRight{
+	width:126px;float:right;position: relative;z-index:9000;
+}
+ .vanclHead .headerBox .headerTop .headerTopRight .notice{
+	width: 70px;
+    height: 18px;
+    line-height: 18px;
+    margin: 7px 0px 0 0px;
+    float: left;
+    display: inline;
+    position: relative;
+    z-index: 1000;
+    cursor: pointer;
+}
+.vanclHead .headerBox .headerTop .headerTopRight .notice .headerTop-title{
+	font-size: 12px;
+	display: block;background-position:0px 0px;
+	background: url(http://i3.vanclimg.com/cms/20160912/notice.png) no-repeat scroll 0px 0px;
+    width: 74px;
+    padding-left: 26px;
+    text-align: left;
+    color:#808080;
+} 
+
+.vanclHead .headerBox .headerTop .headerTopRight .attention{float:right;}
+/*.headerBox .headerTop .headerTopRight .attention em{
+    background-position: 0px -117px;
+    width: 47px;
+    height: 22px;
+    display: none;
+}*/
+.headerBox .headerTop .headerTopRight .attention .weixin-box{
+    color:#808080;float:left;position: relative;width:50px;height:29px;
+}
+.headerBox .headerTop .headerTopRight .attention .weixin-box .weixin{
+    float: left;
+    margin-top: 2px;
+    display: inline;
+    cursor: pointer;
+    height: 21px;
+    width:20px;
+    background: url(http://i1.vanclimg.com/cms/20150605/w1.jpg) no-repeat left 3px;
+}
+.headerBox .headerTop .headerTopRight .attention .weixin-box .weixin-tip{
+    position: absolute;
+    width: 148px;
+    height: 169px;
+    right: 33px;
+    top: 30px;
+    border: 1px solid #e5e5e5;
+    background: url(http://i2.vanclimg.com/header/20130116/weixin.png) no-repeat;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 10000;
+     display: none;
+}
+.headerBox .headerTop .headerTopRight .attention .weibo{
+    background: url(http://i2.vanclimg.com/cms/20150605/w2.jpg) no-repeat left 3px;
+    width:20px;height:25px;float: left;margin-top: 4px;
+    position: absolute;right:0;top:-3px;
+}
+
+.headerBox .headerTop .headerTopLeft{float:right;}
+.headerBox .headerTop .headerTopLeft .login{float:left;font-size:12px;/*width:228px;height:32px;*/}
+.headerBox .headerTop .headerTopLeft .login .top{color:#808080;line-height: 32px; font-size: 12px;}
+.headerBox .headerTop .headerTopLeft .login span a{text-decoration: none;font-size: 12px;color:#808080;padding:0 5px;}
+.headerBox .headerTop .headerTopLeft .indent{margin:0 0 0 13px;float:left;display: inline;}
+.headerBox .headerTop .headerTopLeft .indent a{display:block;padding-right:14px;font-size: 12px;line-height: 32px;color:#808080;}
+.headerBox .headerTop .headerTopLeft .indent a:hover{color:#a10000;}
+
+/*顶部logo搜索栏*/
+.vanclHead .logoSearch{
+    width:1200px;height:62px;margin:20px auto 25px;
+    .vanclSearch{
+        width:438px;padding-top: 8px;float:right;
+        .searchTab{height:29px;
+            .search{float:left;
+                .enter{
+                    width:249px;height:27px;
+                    padding:0 5px;line-height: 27px;
+                    border:1px solid #c9caca;
+                    float:left;
+                }
+                .btn{
+                    width:49px;height:29px;border:none;
+                    cursor:pointer;
+                   background: url(http://i2.vanclimg.com/cms/20150228/vanclsprite.png) no-repeat scroll -100px 0px;
+                }
+            }
+
+            .active{
+                width:105px;height:28px;border:1px solid #c1383e;
+                background: url(http://i2.vanclimg.com/cms/20150228/vanclsprite.png) no-repeat scroll -154px 0px;
+                position: relative;
+                z-index: 10;
+                float: right;
+                p .carTab{
+                    color:#fff;display: block;
+                    padding-left: 29px;padding-top:6px;font-size: 12px;
+                }
+                .bottomlines{
+                    margin:0;padding:0;
+                }
+                .buyCar{
+                    width: 315px;
+                    height: auto;
+                    padding: 5px;
+                    border: 1px solid #b81c22;
+                    position: absolute;
+                    right: -1px;
+                    top: 27px;
+                    _right: -2px;
+                    background: #ffffff;
+                    display: none;
+                    .havepru{
+                        width:90%;margin:0 auto;
+                        .haveTop{
+                            margin:0;padding:0;
+                        }
+                        .haveMid{
+                            margin:0;padding:0;
+                            h2{
+                                line-height: 33px;border-bottom:1px solid #ececec;
+                                color:#727171;font-size: 12px;
+                            }
+                            ul{
+                                margin:0;padding:0;
+                                li{
+                                    padding: 0;
+                                    height: 40px;
+                                    overflow: hidden;
+                                    .carLeft{
+                                        display: block;
+                                        float: left;
+                                        width: 40px;
+                                        height: 40px;
+                                        padding: 2px 4px 2px 2px;
+                                        a{
+                                            color:#333;
+                                        }
+                                    }
+                                    .carRight{
+                                        display: block;
+                                        float: left;
+                                        width: 190px;
+                                        h3{
+                                            line-height: 25px;font-size: 12px;
+                                            a{
+                                                color:#727171;line-height: 25px;
+                                                &:hover{
+                                                    color:#a10000;
+                                                }
+                                            }
+                                        }
+                                        span{
+                                            display: block;
+                                            color: #727171;
+                                            float: left;
+                                            line-height: 18px;
+                                            font-family: "Microsoft Yahei";width:100%;
+                                            height:0;font-size: 0px;clear: both;
+                                            overflow: hidden;
+                                        }
+                                        .price{
+                                            color: #a10000;
+                                            strong{
+                                                font-style: normal;
+                                                font-weight: normal;
+                                                color: #a10000;
+                                            }
+                                            em{
+                                                font-style: normal;
+                                                font-weight: normal;
+                                                 color: #a10000;
+                                            }
+                                        }
+                                    }
+                                    .carDelect{
+                                        display: block;
+                                        float: right;
+                                        width: 42px;
+                                        height: 40px;
+                                        color: #a10000;
+                                        text-align: right;
+                                        line-height: 40px;
+                                        a{
+                                            color: #a10000;
+                                            text-align: right;
+                                            line-height: 40px;
+                                        }
+                                    }
+                                    .blank0{
+                                        width:100%;height:0;font-size: 0;
+                                        clear: both;overflow: hidden;
+                                    }
+                                }
+                            }
+                            .buyCarPageLine{
+                                height: 8px;
+                                overflow: hidden;
+                                border-bottom: 1px solid #ececec;
+                                margin: 0 0 5px 0;
+                            }
+                            .buyCarPage{
+                                margin:0;padding:0;
+                                .totalPage{
+                                    margin:0;padding:0;
+                                    div{
+                                        display: block;
+                                        color: #a3a3a3;
+                                        float: left;
+                                        span{
+                                            display: block;
+                                            color: #b81c22;
+                                        }
+                                    }
+                                    strong{
+                                        display: block;
+                                        float: right;
+                                        height: 29px;
+                                        line-height: 29px;
+                                        background: #b81c22;
+                                        padding: 0 10px;
+                                        a{
+                                            color:#fff;
+                                            span{
+                                                color:#fff;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .haveBom{
+                            margin:0;padding:0;
+                        }
+                    }
+                }
+            }
+
+        }
+        .hotWord{
+            width: 440px;
+            padding-top: 5px;
+            line-height: 18px;
+            color: #727171;
+            padding-left: 15px;
+            p{
+                margin:0;padding:0;
+                a{
+                    color: #727171;
+                    margin: 0 5px 0 0;
+                    padding-left: 3px;
+                }
+            }
+        }
+    }
+}
+.vanclHead .navBox{
+    z-index: 300!important;
+    width: 1200px;height: 22px!important;
+    margin: 30px auto!important;
+    padding-left: 200px!important;
+    position: relative!important;
+    ul{
+        margin:0;padding:0;
+        .vanclLogo{
+            text-align: left;position: absolute;
+            left: 0;width:100%;float:left;line-height: 22px;
+            bottom: 0;font-size: 16px;
+            font-family: "Microsoft YaHei";
+            padding: 0px;z-index: 220;
+            background: none;
+            a{
+                display: block;
+                width: 185px;
+                height: 46px;
+                background: url(http://i4.vanclimg.com/cms/20160923/logo18546.png) no-repeat scroll;
+            }
+        }
+        li{
+            float: left;
+            width: 99px;
+            line-height: 22px;
+            padding: 0px 0px 10px;
+            text-align: center;
+            font-size: 16px;
+            font-family: "Microsoft YaHei";
+            position: relative;
+            z-index: 220;
+            a{
+                color:#727171;
+                &:hover{
+                    color:#b81c22;
+                }
+            }
+            .NavLine{
+                display: block;
+                height: 16px;
+                width: 1px;
+                border-right: solid 1px #888;
+                position: absolute;
+                right: 1px;
+                top: 5px;
+                overflow: hidden;
+            }
+            .subNav{
+                width: 99px;
+                background: #fff;
+                position: absolute;
+                left: -2px;
+                top: 30px;
+                display: none;
+                span{
+                    display: block;
+                    width: 100%;
+                    height: 5px;
+                    border-top: 5px solid #B81C22;
+                }
+                ul{
+                    border: 1px solid #efefef;
+                    border-top: 0px;
+                    padding: 10px 0px;
+                    li{
+                        text-align: center;
+                        line-height: 35px;
+                        background: none;
+                        padding: 0px;
+                        float: none;
+                        font-size: 16px;
+                        a{
+                            color:#727171;
+                            &:hover{
+                                -webkit-column-rule: #b81c22;
+                                -moz-column-rule: #b81c22;
+                                -o-column-rule: #b81c22;
+                                column-rule: #b81c22;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/*content*/
+.vanclCon{
+    width:1200px;height: auto;
+    margin: 0px auto;
+    overflow: hidden;
+    .bannerBox{
+        width:1200px;
+        .banner{
+            width: 1200px;
+            height: 535px;
+            overflow: hidden;
+            position: relative;
+            z-index: 5;
+            .bannerTab{
+                width: 710px;
+                height: 535px;
+                .rslides{
+                    margin:0;padding:0;
+                    li:nth-child(1){
+                        background: url(http://i1.vanclimg.com/cms/20190402/1200x535sj.jpg) center 0px no-repeat scroll;
+                        display: list-item;
+                        float: none;
+                        position: absolute;
+                        opacity: 1;
+                        z-index: 2;width:1200px;height:535px;
+                        a{
+                            width:100%;height:100%;display: block;
+                        }
+                    }
+                    li:nth-child(2){
+                        background: url(http://i3.vanclimg.com/cms/20190328/srm1200x535.jpg) center 0px no-repeat scroll;
+                        display: list-item;
+                        float: left;
+                        position: absolute;
+                        opacity: 1;
+                        z-index: 1;width:1200px;height:535px;
+                        a{
+                            width:100%;height:100%;display: block;
+                        }
+                    }
+                    li:nth-child(3){
+                        background: url(http://i3.vanclimg.com/cms/20190401/zj1200x535.jpg) center 0px no-repeat scroll;
+                        display: list-item;
+                        float: left;
+                        position: absolute;
+                        opacity: 1;
+                        z-index: 1;width:1200px;height:535px;
+                        a{
+                            width:100%;height:100%;display: block;
+                        }
+                    }
+                    li:nth-child(4){
+                        background: url("http://i2.vanclimg.com/cms/20190402/1200-535jy.jpg") center 0px no-repeat scroll;
+                        display: list-item;
+                        float: left;
+                        position: absolute;
+                        opacity: 1;
+                        z-index: 1;width:1200px;height:535px;
+                        a{
+                            width:100%;height:100%;display: block;
+                        }
+                    }
+                    li:nth-child(5){
+                        background: url("http://i4.vanclimg.com/cms/20190328/cs535.jpg") center 0px no-repeat scroll;
+                        display: list-item;
+                        float: left;
+                        position: absolute;
+                        opacity: 1;
+                        z-index: 1;width:1200px;height:535px;
+                        a{
+                            width:100%;height:100%;display: block;
+                        }
+                    }
+                    li:nth-child(6){
+                        background: url("http://i5.vanclimg.com/cms/20190328/x535.jpg") center 0px no-repeat scroll;
+                         display: list-item;
+                        float: left;
+                        position: absolute;
+                        opacity: 1;
+                        z-index: 1;width:1200px;height:535px;
+                        a{
+                            width:100%;height:100%;display: block;
+                        }
+                    }
+                }
+                .prev{
+                    background: url(http://i3.vanclimg.com/cms/20160918/focus_lr0918.png) no-repeat scroll 0px 0px;
+                    left: 10px;
+                    position: absolute;
+                    top: 230px;cursor: pointer;
+                    height: 60px;
+                    width: 28px;
+                    z-index: 10;
+                    text-indent: -9999px;
+                    display: inline-block;
+                }
+                .next{
+                    background: url(http://i3.vanclimg.com/cms/20160918/focus_lr0918.png) no-repeat scroll -52px 0px;
+                    position: absolute;
+                    right: 10px;
+                    top: 230px;cursor: pointer;
+                    height: 60px;
+                    width: 28px;
+                    z-index: 10;
+                    text-indent: -9999px;
+                    display: inline-block;
+                }
+                .rslides_tabs{
+                    height: 12px;
+                    position: absolute;
+                    right: 46%;
+                    top: 500px;
+                    z-index: 10;
+                    overflow: hidden;
+                    li{
+                        width: 12px;
+                        height: 12px;
+                        overflow: hidden;
+                        float: left;
+                        display: inline;
+                        margin-right: 8px;
+                        cursor: pointer;
+                        background: #dddddd;
+                        border-radius: 12px;
+                        a{
+                            display: block;
+                            width: 12px;
+                            height: 12px;
+                            line-height: 0px;
+                            overflow: hidden;
+                            font-size: 0;
+                        }
+                    }
+                    .rslides_here{
+                        background:#a10000;
+                    }
+                }
+            }
+        }
+    }
+    .blank20{
+        display: block;
+        width: 100%;
+        height: 20px;
+        line-height: 0px;
+        font-size: 0px;
+        clear: both;
+        overflow: hidden;
+    }
+    /*hotShopping*/
+    .getMoney{
+        margin:20px 0px;
+        .getmoney{
+            margin:20px 0px;
+            a{
+                color:#333;text-decoration: none;
+                img{
+                    display: block;width:1200px;height:50px;
+                }
+            }
+        }
+        .blank0{
+            display: block;
+            width: 100%;
+            height: 0px;
+            line-height: 0px;
+            font-size: 0px;
+            clear: both;
+            overflow: hidden;
+        }
+        .proAreabox{
+            margin:0;padding:0;
+            .activity a{
+                color:#333;text-decoration: none;
+                img{
+                    display: block;width:1200px;height:57px;
+                }
+            }
+            .newStyle a{
+                color:#333;text-decoration: none;
+                img{
+                    display: block;width:1200px;height:84px;
+                }
+            }
+            .T-shirtList1, .T-shirtList2, .T-shirtList3{
+                margin:0;padding:0;margin-bottom: 20px;
+                width:1200px;height:424px;
+                li{
+                    float:left;margin-left: 27px;
+                    a img{
+                        display: block; 
+                    }
+                }
+                li:nth-child(1){
+                    margin-left: 22px;
+                }
+            }
+            .blank00{
+                width:1200px;height:50px;
+            }
+            /*优选推荐*/
+            
+        }
+    }
+}

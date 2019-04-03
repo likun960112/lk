@@ -1,0 +1,603 @@
+@charset "UTF-8";
+/*首页头部*/
+body {
+  font-size: 12px;
+  font-family: "宋体";
+  color: #333; }
+
+a:hover {
+  text-decoration: none; }
+
+.vanclHead {
+  width: 100%;
+  height: auto; }
+
+.vanclHead .headerBox {
+  width: 100%;
+  height: 32px;
+  background: #f7f7f7; }
+
+.vanclHead .headerBox .headerTop {
+  width: 1200px;
+  height: 32px;
+  border-bottom: 1px solid #ccc; }
+
+.vanclHead .headerBox .headerTop .headerTopRight {
+  width: 126px;
+  float: right;
+  position: relative;
+  z-index: 9000; }
+
+.vanclHead .headerBox .headerTop .headerTopRight .notice {
+  width: 70px;
+  height: 18px;
+  line-height: 18px;
+  margin: 7px 0px 0 0px;
+  float: left;
+  display: inline;
+  position: relative;
+  z-index: 1000;
+  cursor: pointer; }
+
+.vanclHead .headerBox .headerTop .headerTopRight .notice .headerTop-title {
+  font-size: 12px;
+  display: block;
+  background-position: 0px 0px;
+  background: url(http://i3.vanclimg.com/cms/20160912/notice.png) no-repeat scroll 0px 0px;
+  width: 74px;
+  padding-left: 26px;
+  text-align: left;
+  color: #808080; }
+
+.vanclHead .headerBox .headerTop .headerTopRight .attention {
+  float: right; }
+
+/*.headerBox .headerTop .headerTopRight .attention em{
+    background-position: 0px -117px;
+    width: 47px;
+    height: 22px;
+    display: none;
+}*/
+.headerBox .headerTop .headerTopRight .attention .weixin-box {
+  color: #808080;
+  float: left;
+  position: relative;
+  width: 50px;
+  height: 29px; }
+
+.headerBox .headerTop .headerTopRight .attention .weixin-box .weixin {
+  float: left;
+  margin-top: 2px;
+  display: inline;
+  cursor: pointer;
+  height: 21px;
+  width: 20px;
+  background: url(http://i1.vanclimg.com/cms/20150605/w1.jpg) no-repeat left 3px; }
+
+.headerBox .headerTop .headerTopRight .attention .weixin-box .weixin-tip {
+  position: absolute;
+  width: 148px;
+  height: 169px;
+  right: 33px;
+  top: 30px;
+  border: 1px solid #e5e5e5;
+  background: url(http://i2.vanclimg.com/header/20130116/weixin.png) no-repeat;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 10000;
+  display: none; }
+
+.headerBox .headerTop .headerTopRight .attention .weibo {
+  background: url(http://i2.vanclimg.com/cms/20150605/w2.jpg) no-repeat left 3px;
+  width: 20px;
+  height: 25px;
+  float: left;
+  margin-top: 4px;
+  position: absolute;
+  right: 0;
+  top: -3px; }
+
+.headerBox .headerTop .headerTopLeft {
+  float: right; }
+
+.headerBox .headerTop .headerTopLeft .login {
+  float: left;
+  font-size: 12px;
+  /*width:228px;height:32px;*/ }
+
+.headerBox .headerTop .headerTopLeft .login .top {
+  color: #808080;
+  line-height: 32px;
+  font-size: 12px; }
+
+.headerBox .headerTop .headerTopLeft .login span a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #808080;
+  padding: 0 5px; }
+
+.headerBox .headerTop .headerTopLeft .indent {
+  margin: 0 0 0 13px;
+  float: left;
+  display: inline; }
+
+.headerBox .headerTop .headerTopLeft .indent a {
+  display: block;
+  padding-right: 14px;
+  font-size: 12px;
+  line-height: 32px;
+  color: #808080; }
+
+.headerBox .headerTop .headerTopLeft .indent a:hover {
+  color: #a10000; }
+
+/*顶部logo搜索栏*/
+.vanclHead .logoSearch {
+  width: 1200px;
+  height: 62px;
+  margin: 20px auto 25px; }
+  .vanclHead .logoSearch .vanclSearch {
+    width: 438px;
+    padding-top: 8px;
+    float: right; }
+    .vanclHead .logoSearch .vanclSearch .searchTab {
+      height: 29px; }
+      .vanclHead .logoSearch .vanclSearch .searchTab .search {
+        float: left; }
+        .vanclHead .logoSearch .vanclSearch .searchTab .search .enter {
+          width: 249px;
+          height: 27px;
+          padding: 0 5px;
+          line-height: 27px;
+          border: 1px solid #c9caca;
+          float: left; }
+        .vanclHead .logoSearch .vanclSearch .searchTab .search .btn {
+          width: 49px;
+          height: 29px;
+          border: none;
+          cursor: pointer;
+          background: url(http://i2.vanclimg.com/cms/20150228/vanclsprite.png) no-repeat scroll -100px 0px; }
+      .vanclHead .logoSearch .vanclSearch .searchTab .active {
+        width: 105px;
+        height: 28px;
+        border: 1px solid #c1383e;
+        background: url(http://i2.vanclimg.com/cms/20150228/vanclsprite.png) no-repeat scroll -154px 0px;
+        position: relative;
+        z-index: 10;
+        float: right; }
+        .vanclHead .logoSearch .vanclSearch .searchTab .active p .carTab {
+          color: #fff;
+          display: block;
+          padding-left: 29px;
+          padding-top: 6px;
+          font-size: 12px; }
+        .vanclHead .logoSearch .vanclSearch .searchTab .active .bottomlines {
+          margin: 0;
+          padding: 0; }
+        .vanclHead .logoSearch .vanclSearch .searchTab .active .buyCar {
+          width: 315px;
+          height: auto;
+          padding: 5px;
+          border: 1px solid #b81c22;
+          position: absolute;
+          right: -1px;
+          top: 27px;
+          _right: -2px;
+          background: #ffffff;
+          display: none; }
+          .vanclHead .logoSearch .vanclSearch .searchTab .active .buyCar .havepru {
+            width: 90%;
+            margin: 0 auto; }
+            .vanclHead .logoSearch .vanclSearch .searchTab .active .buyCar .havepru .haveTop {
+              margin: 0;
+              padding: 0; }
+            .vanclHead .logoSearch .vanclSearch .searchTab .active .buyCar .havepru .haveMid {
+              margin: 0;
+              padding: 0; }
+              .vanclHead .logoSearch .vanclSearch .searchTab .active .buyCar .havepru .haveMid h2 {
+                line-height: 33px;
+                border-bottom: 1px solid #ececec;
+                color: #727171;
+                font-size: 12px; }
+              .vanclHead .logoSearch .vanclSearch .searchTab .active .buyCar .havepru .haveMid ul {
+                margin: 0;
+                padding: 0; }
+                .vanclHead .logoSearch .vanclSearch .searchTab .active .buyCar .havepru .haveMid ul li {
+                  padding: 0;
+                  height: 40px;
+                  overflow: hidden; }
+                  .vanclHead .logoSearch .vanclSearch .searchTab .active .buyCar .havepru .haveMid ul li .carLeft {
+                    display: block;
+                    float: left;
+                    width: 40px;
+                    height: 40px;
+                    padding: 2px 4px 2px 2px; }
+                    .vanclHead .logoSearch .vanclSearch .searchTab .active .buyCar .havepru .haveMid ul li .carLeft a {
+                      color: #333; }
+                  .vanclHead .logoSearch .vanclSearch .searchTab .active .buyCar .havepru .haveMid ul li .carRight {
+                    display: block;
+                    float: left;
+                    width: 190px; }
+                    .vanclHead .logoSearch .vanclSearch .searchTab .active .buyCar .havepru .haveMid ul li .carRight h3 {
+                      line-height: 25px;
+                      font-size: 12px; }
+                      .vanclHead .logoSearch .vanclSearch .searchTab .active .buyCar .havepru .haveMid ul li .carRight h3 a {
+                        color: #727171;
+                        line-height: 25px; }
+                        .vanclHead .logoSearch .vanclSearch .searchTab .active .buyCar .havepru .haveMid ul li .carRight h3 a:hover {
+                          color: #a10000; }
+                    .vanclHead .logoSearch .vanclSearch .searchTab .active .buyCar .havepru .haveMid ul li .carRight span {
+                      display: block;
+                      color: #727171;
+                      float: left;
+                      line-height: 18px;
+                      font-family: "Microsoft Yahei";
+                      width: 100%;
+                      height: 0;
+                      font-size: 0px;
+                      clear: both;
+                      overflow: hidden; }
+                    .vanclHead .logoSearch .vanclSearch .searchTab .active .buyCar .havepru .haveMid ul li .carRight .price {
+                      color: #a10000; }
+                      .vanclHead .logoSearch .vanclSearch .searchTab .active .buyCar .havepru .haveMid ul li .carRight .price strong {
+                        font-style: normal;
+                        font-weight: normal;
+                        color: #a10000; }
+                      .vanclHead .logoSearch .vanclSearch .searchTab .active .buyCar .havepru .haveMid ul li .carRight .price em {
+                        font-style: normal;
+                        font-weight: normal;
+                        color: #a10000; }
+                  .vanclHead .logoSearch .vanclSearch .searchTab .active .buyCar .havepru .haveMid ul li .carDelect {
+                    display: block;
+                    float: right;
+                    width: 42px;
+                    height: 40px;
+                    color: #a10000;
+                    text-align: right;
+                    line-height: 40px; }
+                    .vanclHead .logoSearch .vanclSearch .searchTab .active .buyCar .havepru .haveMid ul li .carDelect a {
+                      color: #a10000;
+                      text-align: right;
+                      line-height: 40px; }
+                  .vanclHead .logoSearch .vanclSearch .searchTab .active .buyCar .havepru .haveMid ul li .blank0 {
+                    width: 100%;
+                    height: 0;
+                    font-size: 0;
+                    clear: both;
+                    overflow: hidden; }
+              .vanclHead .logoSearch .vanclSearch .searchTab .active .buyCar .havepru .haveMid .buyCarPageLine {
+                height: 8px;
+                overflow: hidden;
+                border-bottom: 1px solid #ececec;
+                margin: 0 0 5px 0; }
+              .vanclHead .logoSearch .vanclSearch .searchTab .active .buyCar .havepru .haveMid .buyCarPage {
+                margin: 0;
+                padding: 0; }
+                .vanclHead .logoSearch .vanclSearch .searchTab .active .buyCar .havepru .haveMid .buyCarPage .totalPage {
+                  margin: 0;
+                  padding: 0; }
+                  .vanclHead .logoSearch .vanclSearch .searchTab .active .buyCar .havepru .haveMid .buyCarPage .totalPage div {
+                    display: block;
+                    color: #a3a3a3;
+                    float: left; }
+                    .vanclHead .logoSearch .vanclSearch .searchTab .active .buyCar .havepru .haveMid .buyCarPage .totalPage div span {
+                      display: block;
+                      color: #b81c22; }
+                  .vanclHead .logoSearch .vanclSearch .searchTab .active .buyCar .havepru .haveMid .buyCarPage .totalPage strong {
+                    display: block;
+                    float: right;
+                    height: 29px;
+                    line-height: 29px;
+                    background: #b81c22;
+                    padding: 0 10px; }
+                    .vanclHead .logoSearch .vanclSearch .searchTab .active .buyCar .havepru .haveMid .buyCarPage .totalPage strong a {
+                      color: #fff; }
+                      .vanclHead .logoSearch .vanclSearch .searchTab .active .buyCar .havepru .haveMid .buyCarPage .totalPage strong a span {
+                        color: #fff; }
+            .vanclHead .logoSearch .vanclSearch .searchTab .active .buyCar .havepru .haveBom {
+              margin: 0;
+              padding: 0; }
+    .vanclHead .logoSearch .vanclSearch .hotWord {
+      width: 440px;
+      padding-top: 5px;
+      line-height: 18px;
+      color: #727171;
+      padding-left: 15px; }
+      .vanclHead .logoSearch .vanclSearch .hotWord p {
+        margin: 0;
+        padding: 0; }
+        .vanclHead .logoSearch .vanclSearch .hotWord p a {
+          color: #727171;
+          margin: 0 5px 0 0;
+          padding-left: 3px; }
+
+.vanclHead .navBox {
+  z-index: 300 !important;
+  width: 1200px;
+  height: 22px !important;
+  margin: 30px auto !important;
+  padding-left: 200px !important;
+  position: relative !important; }
+  .vanclHead .navBox ul {
+    margin: 0;
+    padding: 0; }
+    .vanclHead .navBox ul .vanclLogo {
+      text-align: left;
+      position: absolute;
+      left: 0;
+      width: 100%;
+      float: left;
+      line-height: 22px;
+      bottom: 0;
+      font-size: 16px;
+      font-family: "Microsoft YaHei";
+      padding: 0px;
+      z-index: 220;
+      background: none; }
+      .vanclHead .navBox ul .vanclLogo a {
+        display: block;
+        width: 185px;
+        height: 46px;
+        background: url(http://i4.vanclimg.com/cms/20160923/logo18546.png) no-repeat scroll; }
+    .vanclHead .navBox ul li {
+      float: left;
+      width: 99px;
+      line-height: 22px;
+      padding: 0px 0px 10px;
+      text-align: center;
+      font-size: 16px;
+      font-family: "Microsoft YaHei";
+      position: relative;
+      z-index: 220; }
+      .vanclHead .navBox ul li a {
+        color: #727171; }
+        .vanclHead .navBox ul li a:hover {
+          color: #b81c22; }
+      .vanclHead .navBox ul li .NavLine {
+        display: block;
+        height: 16px;
+        width: 1px;
+        border-right: solid 1px #888;
+        position: absolute;
+        right: 1px;
+        top: 5px;
+        overflow: hidden; }
+      .vanclHead .navBox ul li .subNav {
+        width: 99px;
+        background: #fff;
+        position: absolute;
+        left: -2px;
+        top: 30px;
+        display: none; }
+        .vanclHead .navBox ul li .subNav span {
+          display: block;
+          width: 100%;
+          height: 5px;
+          border-top: 5px solid #B81C22; }
+        .vanclHead .navBox ul li .subNav ul {
+          border: 1px solid #efefef;
+          border-top: 0px;
+          padding: 10px 0px; }
+          .vanclHead .navBox ul li .subNav ul li {
+            text-align: center;
+            line-height: 35px;
+            background: none;
+            padding: 0px;
+            float: none;
+            font-size: 16px; }
+            .vanclHead .navBox ul li .subNav ul li a {
+              color: #727171; }
+              .vanclHead .navBox ul li .subNav ul li a:hover {
+                -webkit-column-rule: #b81c22;
+                -moz-column-rule: #b81c22;
+                -o-column-rule: #b81c22;
+                column-rule: #b81c22; }
+
+/*content*/
+.vanclCon {
+  width: 1200px;
+  height: auto;
+  margin: 0px auto;
+  overflow: hidden;
+  /*hotShopping*/ }
+  .vanclCon .bannerBox {
+    width: 1200px; }
+    .vanclCon .bannerBox .banner {
+      width: 1200px;
+      height: 535px;
+      overflow: hidden;
+      position: relative;
+      z-index: 5; }
+      .vanclCon .bannerBox .banner .bannerTab {
+        width: 710px;
+        height: 535px; }
+        .vanclCon .bannerBox .banner .bannerTab .rslides {
+          margin: 0;
+          padding: 0; }
+          .vanclCon .bannerBox .banner .bannerTab .rslides li:nth-child(1) {
+            background: url(http://i1.vanclimg.com/cms/20190402/1200x535sj.jpg) center 0px no-repeat scroll;
+            display: list-item;
+            float: none;
+            position: absolute;
+            opacity: 1;
+            z-index: 2;
+            width: 1200px;
+            height: 535px; }
+            .vanclCon .bannerBox .banner .bannerTab .rslides li:nth-child(1) a {
+              width: 100%;
+              height: 100%;
+              display: block; }
+          .vanclCon .bannerBox .banner .bannerTab .rslides li:nth-child(2) {
+            background: url(http://i3.vanclimg.com/cms/20190328/srm1200x535.jpg) center 0px no-repeat scroll;
+            display: list-item;
+            float: left;
+            position: absolute;
+            opacity: 1;
+            z-index: 1;
+            width: 1200px;
+            height: 535px; }
+            .vanclCon .bannerBox .banner .bannerTab .rslides li:nth-child(2) a {
+              width: 100%;
+              height: 100%;
+              display: block; }
+          .vanclCon .bannerBox .banner .bannerTab .rslides li:nth-child(3) {
+            background: url(http://i3.vanclimg.com/cms/20190401/zj1200x535.jpg) center 0px no-repeat scroll;
+            display: list-item;
+            float: left;
+            position: absolute;
+            opacity: 1;
+            z-index: 1;
+            width: 1200px;
+            height: 535px; }
+            .vanclCon .bannerBox .banner .bannerTab .rslides li:nth-child(3) a {
+              width: 100%;
+              height: 100%;
+              display: block; }
+          .vanclCon .bannerBox .banner .bannerTab .rslides li:nth-child(4) {
+            background: url("http://i2.vanclimg.com/cms/20190402/1200-535jy.jpg") center 0px no-repeat scroll;
+            display: list-item;
+            float: left;
+            position: absolute;
+            opacity: 1;
+            z-index: 1;
+            width: 1200px;
+            height: 535px; }
+            .vanclCon .bannerBox .banner .bannerTab .rslides li:nth-child(4) a {
+              width: 100%;
+              height: 100%;
+              display: block; }
+          .vanclCon .bannerBox .banner .bannerTab .rslides li:nth-child(5) {
+            background: url("http://i4.vanclimg.com/cms/20190328/cs535.jpg") center 0px no-repeat scroll;
+            display: list-item;
+            float: left;
+            position: absolute;
+            opacity: 1;
+            z-index: 1;
+            width: 1200px;
+            height: 535px; }
+            .vanclCon .bannerBox .banner .bannerTab .rslides li:nth-child(5) a {
+              width: 100%;
+              height: 100%;
+              display: block; }
+          .vanclCon .bannerBox .banner .bannerTab .rslides li:nth-child(6) {
+            background: url("http://i5.vanclimg.com/cms/20190328/x535.jpg") center 0px no-repeat scroll;
+            display: list-item;
+            float: left;
+            position: absolute;
+            opacity: 1;
+            z-index: 1;
+            width: 1200px;
+            height: 535px; }
+            .vanclCon .bannerBox .banner .bannerTab .rslides li:nth-child(6) a {
+              width: 100%;
+              height: 100%;
+              display: block; }
+        .vanclCon .bannerBox .banner .bannerTab .prev {
+          background: url(http://i3.vanclimg.com/cms/20160918/focus_lr0918.png) no-repeat scroll 0px 0px;
+          left: 10px;
+          position: absolute;
+          top: 230px;
+          cursor: pointer;
+          height: 60px;
+          width: 28px;
+          z-index: 10;
+          text-indent: -9999px;
+          display: inline-block; }
+        .vanclCon .bannerBox .banner .bannerTab .next {
+          background: url(http://i3.vanclimg.com/cms/20160918/focus_lr0918.png) no-repeat scroll -52px 0px;
+          position: absolute;
+          right: 10px;
+          top: 230px;
+          cursor: pointer;
+          height: 60px;
+          width: 28px;
+          z-index: 10;
+          text-indent: -9999px;
+          display: inline-block; }
+        .vanclCon .bannerBox .banner .bannerTab .rslides_tabs {
+          height: 12px;
+          position: absolute;
+          right: 46%;
+          top: 500px;
+          z-index: 10;
+          overflow: hidden; }
+          .vanclCon .bannerBox .banner .bannerTab .rslides_tabs li {
+            width: 12px;
+            height: 12px;
+            overflow: hidden;
+            float: left;
+            display: inline;
+            margin-right: 8px;
+            cursor: pointer;
+            background: #dddddd;
+            border-radius: 12px; }
+            .vanclCon .bannerBox .banner .bannerTab .rslides_tabs li a {
+              display: block;
+              width: 12px;
+              height: 12px;
+              line-height: 0px;
+              overflow: hidden;
+              font-size: 0; }
+          .vanclCon .bannerBox .banner .bannerTab .rslides_tabs .rslides_here {
+            background: #a10000; }
+  .vanclCon .blank20 {
+    display: block;
+    width: 100%;
+    height: 20px;
+    line-height: 0px;
+    font-size: 0px;
+    clear: both;
+    overflow: hidden; }
+  .vanclCon .getMoney {
+    margin: 20px 0px; }
+    .vanclCon .getMoney .getmoney {
+      margin: 20px 0px; }
+      .vanclCon .getMoney .getmoney a {
+        color: #333;
+        text-decoration: none; }
+        .vanclCon .getMoney .getmoney a img {
+          display: block;
+          width: 1200px;
+          height: 50px; }
+    .vanclCon .getMoney .blank0 {
+      display: block;
+      width: 100%;
+      height: 0px;
+      line-height: 0px;
+      font-size: 0px;
+      clear: both;
+      overflow: hidden; }
+    .vanclCon .getMoney .proAreabox {
+      margin: 0;
+      padding: 0;
+      /*优选推荐*/ }
+      .vanclCon .getMoney .proAreabox .activity a {
+        color: #333;
+        text-decoration: none; }
+        .vanclCon .getMoney .proAreabox .activity a img {
+          display: block;
+          width: 1200px;
+          height: 57px; }
+      .vanclCon .getMoney .proAreabox .newStyle a {
+        color: #333;
+        text-decoration: none; }
+        .vanclCon .getMoney .proAreabox .newStyle a img {
+          display: block;
+          width: 1200px;
+          height: 84px; }
+      .vanclCon .getMoney .proAreabox .T-shirtList1, .vanclCon .getMoney .proAreabox .T-shirtList2, .vanclCon .getMoney .proAreabox .T-shirtList3 {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 20px;
+        width: 1200px;
+        height: 424px; }
+        .vanclCon .getMoney .proAreabox .T-shirtList1 li, .vanclCon .getMoney .proAreabox .T-shirtList2 li, .vanclCon .getMoney .proAreabox .T-shirtList3 li {
+          float: left;
+          margin-left: 27px; }
+          .vanclCon .getMoney .proAreabox .T-shirtList1 li a img, .vanclCon .getMoney .proAreabox .T-shirtList2 li a img, .vanclCon .getMoney .proAreabox .T-shirtList3 li a img {
+            display: block; }
+        .vanclCon .getMoney .proAreabox .T-shirtList1 li:nth-child(1), .vanclCon .getMoney .proAreabox .T-shirtList2 li:nth-child(1), .vanclCon .getMoney .proAreabox .T-shirtList3 li:nth-child(1) {
+          margin-left: 22px; }
+      .vanclCon .getMoney .proAreabox .blank00 {
+        width: 1200px;
+        height: 50px; }
