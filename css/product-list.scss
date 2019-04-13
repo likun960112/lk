@@ -115,7 +115,6 @@ a:hover{text-decoration: none;}
                     margin:0;padding:0;
                 }
                 .buyCar{
-
                     width: 315px;
                     height: auto;
                     padding: 5px;
@@ -271,7 +270,7 @@ a:hover{text-decoration: none;}
     }
 }
 .vanclHead .navBox{
-   z-index: 0;
+    z-index: 300!important;
     width: 1200px;height: 22px!important;
     margin: 30px auto!important;
     padding-left: 200px!important;
@@ -301,7 +300,7 @@ a:hover{text-decoration: none;}
             font-size: 16px;
             font-family: "Microsoft YaHei";
             position: relative;
-            z-index: 221; 
+            z-index: 220;
             a{
                 color:#727171;
                 &:hover{
@@ -358,404 +357,133 @@ a:hover{text-decoration: none;}
     }
 }
 /*content*/
-.vanclCon{
-    width:1200px;height: auto;
-    margin: 0px auto;
-    overflow: hidden;
-    .bannerBox{
-        width:1200px;
-        .banner{
-            width: 1200px;
-            height: 535px;
-            overflow: hidden;
-            position: relative;
-            z-index: -1;
-            .bannerTab{
-                width: 710px;
-                height: 535px;
-                .rslides{
-                    margin:0;padding:0;
-                    li:nth-child(1){
-                        background: url(http://i1.vanclimg.com/cms/20190402/1200x535sj.jpg) center 0px no-repeat scroll;
-                        display: list-item;
-                        float: none;
-                        position: absolute;
-                        opacity: 1;
-                        z-index: 2;width:1200px;height:535px;
-                        a{
-                            width:100%;height:100%;display: block;
-                        }
-                    }
-                    li:nth-child(2){
-                        background: url(http://i3.vanclimg.com/cms/20190328/srm1200x535.jpg) center 0px no-repeat scroll;
-                        display: list-item;
-                        float: left;
-                        position: absolute;
-                        opacity: 1;
-                        z-index: 1;width:1200px;height:535px;
-                        a{
-                            width:100%;height:100%;display: block;
-                        }
-                    }
-                    li:nth-child(3){
-                        background: url(http://i3.vanclimg.com/cms/20190401/zj1200x535.jpg) center 0px no-repeat scroll;
-                        display: list-item;
-                        float: left;
-                        position: absolute;
-                        opacity: 1;
-                        z-index: 1;width:1200px;height:535px;
-                        a{
-                            width:100%;height:100%;display: block;
-                        }
-                    }
-                    li:nth-child(4){
-                        background: url("http://i2.vanclimg.com/cms/20190402/1200-535jy.jpg") center 0px no-repeat scroll;
-                        display: list-item;
-                        float: left;
-                        position: absolute;
-                        opacity: 1;
-                        z-index: 1;width:1200px;height:535px;
-                        a{
-                            width:100%;height:100%;display: block;
-                        }
-                    }
-                    li:nth-child(5){
-                        background: url("http://i4.vanclimg.com/cms/20190328/cs535.jpg") center 0px no-repeat scroll;
-                        display: list-item;
-                        float: left;
-                        position: absolute;
-                        opacity: 1;
-                        z-index: 1;width:1200px;height:535px;
-                        a{
-                            width:100%;height:100%;display: block;
-                        }
-                    }
-                    li:nth-child(6){
-                        background: url("http://i5.vanclimg.com/cms/20190328/x535.jpg") center 0px no-repeat scroll;
-                         display: list-item;
-                        float: left;
-                        position: absolute;
-                        opacity: 1;
-                        z-index: 1;width:1200px;height:535px;
-                        a{
-                            width:100%;height:100%;display: block;
-                        }
-                    }
-                }
-                .prev{
-                    background: url(http://i3.vanclimg.com/cms/20160918/focus_lr0918.png) no-repeat scroll 0px 0px;
-                    left: 10px;
-                    position: absolute;
-                    top: 230px;cursor: pointer;
-                    height: 60px;
-                    width: 28px;
-                    z-index: 100000;
-                    text-indent: -9999px;
-                    display: inline-block;
-                    &:hover{
-                        background: url(http://i3.vanclimg.com/cms/20160918/focus_lr0918.png) no-repeat scroll 0px -61px;
-                    }
-                }
-                .next{
-                    background: url(http://i3.vanclimg.com/cms/20160918/focus_lr0918.png) no-repeat scroll -52px 0px;
-                    position: absolute;
-                    right: 10px;
-                    top: 230px;cursor: pointer;
-                    height: 60px;
-                    width: 28px;
-                    z-index: 100000;
-                    text-indent: -9999px;
-                    display: inline-block;
-                    &:hover{
-                        background: url(http://i3.vanclimg.com/cms/20160918/focus_lr0918.png) no-repeat scroll -52px -61px;background: url(http://i3.vanclimg.com/cms/20160918/focus_lr0918.png) no-repeat scroll -52px -61px;
-                    }
-                }
-                .rslides_tabs{
-                    height: 12px;
-                    position: absolute;
-                    right: 46%;
-                    top: 500px;
-                    z-index: 1000000;
-                    overflow: hidden;
-                    li{
-                        width: 12px;
-                        height: 12px;
-                        overflow: hidden;
-                        float: left;
-                        display: inline;
-                        margin-right: 8px;
-                        cursor: pointer;
-                        background: #dddddd;
-                        border-radius: 12px;
-                        a{
-                            display: block;
-                            width: 12px;
-                            height: 12px;
-                            line-height: 0px;
-                            overflow: hidden;
-                            font-size: 0;
-                        }
-                    }
-                    .rslides_here{
-                        background:#a10000;
-                    }
-                }
-            }
-        }
-    }
-    .blank20{
-        display: block;
-        width: 100%;
-        height: 20px;
-        line-height: 0px;
-        font-size: 0px;
-        clear: both;
-        overflow: hidden;
-    }
-    /*hotShopping*/
-    .getMoney{
-        margin:20px 0px;
-        .getmoney{
-            margin:20px 0px;
-            a{
-                color:#333;text-decoration: none;
-                img{
-                    display: block;width:1200px;height:50px;
-                }
-            }
-        }
-        .blank0{
-            display: block;
-            width: 100%;
-            height: 0px;
-            line-height: 0px;
-            font-size: 0px;
-            clear: both;
-            overflow: hidden;
-        }
-        .proAreabox{
-            margin:0;padding:0;
-            .activity a{
-                color:#333;text-decoration: none;
-                img{
-                    display: block;width:1200px;height:57px;
-                }
-            }
-            .newStyle a{
-                color:#333;text-decoration: none;
-                img{
-                    display: block;width:1200px;height:84px;
-                }
-            }
-            .T-shirtList1, .T-shirtList2, .T-shirtList3{
-                margin:0;padding:0;margin-bottom: 20px;
-                width:1200px;height:424px;
-                li{
-                    float:left;margin-left: 27px;
-                    a img{
-                        display: block; 
-                    }
-                }
-                li:nth-child(1){
-                    margin-left: 22px;
-                }
-            }
-            .blank00{
-                width:1200px;height:50px;
-            }
-            /*优选推荐*/
-            .recommendList_top, .recommendList{
-                overflow: hidden;width:1200px;
-                margin:0;padding:0;
-                h2{
-                    text-align: center;
-                    line-height: 50px;
-                    margin: 30px 0px;
-                    font-family: "Microsoft YaHei";
-                    color: #9a9a9a;
-                    font-size: 18px;
-                }
-                ul{
-                    margin:0;padding:0;
-                    li{
-                        float:left;
-                        margin-right: 11px;
-                        display: inline;
-                        list-style: none;
-                    }
-                    .pic_1{
-                        width:590px;
-                        a{
-                            color:#333;text-decoration: none;
-                            img{
-                                display: block;
-                                width:590px;height:440px;
-                            }
-                        }
-                        h3{
-                           height: 69px;
-                            padding: 20px 12px;
-                            line-height: 28px;
-                            border: 1px solid #e8e7ec;
-                            border-top: 0px;
-                            font-family: "Microsoft YaHei";
-                            font-size: 14px;
-                            span{
-                                float: right;
-                                color: #a10000;
-                                font-family: Arial;
-                                line-height: 24px;
-                                font-size: 14px;
-                            }
-                        }
-                    }
-                    .pic_2{
-                        width:290px;
-                        div{
-                            margin:0;padding:0;
-                            margin-bottom: 16px;
-                            a{
-                                color:#333;
-                                text-decoration: none;
-                                img{
-                                    display: block;
-                                }
-                            }
-                            h3{
-                                height: 69px;
-                                padding: 20px 12px;
-                                line-height: 28px;
-                                border: 1px solid #e8e7ec;
-                                border-top: 0px;
-                                font-family: "Microsoft YaHei";
-                                font-size: 14px;
-                                span{
-                                    float: right;
-                                    color: #a10000;
-                                    font-family: Arial;
-                                    line-height: 24px;
-                                    font-size: 14px;
-                                    em{
-                                        font-size: 16px;padding-left: 10px;
-                                    }
-                                }
-                            }
-                        }
-                    }
-                    .pic_3{
-                        width:286px;
-                        a{
-                            color:#333;text-decoration: none;
-                            img{
-                                display: block;
-                            }
-                        }
-                        h3{
-                            height: 69px;
-                            padding: 20px 12px;
-                            line-height: 28px;
-                            border: 1px solid #e8e7ec;
-                            border-top: 0px;
-                            font-family: "Microsoft YaHei";
-                            font-size: 14px;
-                            span{
-                                float: right;
-                                color: #a10000;
-                                font-family: Arial;
-                                line-height: 24px;
-                                font-size: 14px;
-                                em{
-                                    font-size: 16px;padding-left: 10px;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            /*下装推荐*/
-            .trousersList{
-                overflow: hidden;width:1200px;
-                h2{
-                    text-align: center;
-                    line-height: 50px;
-                    margin: 30px 0px;
-                    font-family: "Microsoft YaHei";
-                    color: #9a9a9a;
-                    font-size: 18px;
-                }
-                ul{
-                    margin:0;padding:0;
-                    li{
-                        width: 285px;
-                        height: 508px;
-                        float: left;
-                        display: inline;
-                        margin-right: 20px;
-                        margin-bottom: 20px;
-                        a{
-                            color:#333;text-decoration: none;
-                            img{
-                                display: block;
-                            }
-                        }
-                        h3{
-                            height: 69px;
-                            padding: 20px 12px;
-                            line-height: 28px;
-                            border: 1px solid #e8e7ec;
-                            border-top: 0px;
-                            font-family: "Microsoft YaHei";
-                            font-size: 14px;
-                            span{
-                                float: right;
-                                color: #a10000;
-                                font-family: Arial;
-                                line-height: 24px;
-                                font-size: 14px;
-                                em{
-                                    font-size: 16px;
-                                    padding-left: 10px;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            /*更多精品*/
-            .otherList{
-                overflow: hidden;width:1200px;
-                h2{
-                    text-align: center;
-                    line-height: 50px;
-                    margin: 30px 0px;
-                    font-family: "Microsoft YaHei";
-                    color: #9a9a9a;
-                    font-size: 18px;
-                }
-                ul{
-                    margin:0;padding:0;
-                    li{
-                        float: left;
-                        width: 385px;
-                        height: 275px;
-                        display: inline;
-                        margin: 0px 22px 28px 0px;
-                        a{
-                            color:#333;text-decoration: none;
-                            img{
-                                display: block; 
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-    .blank0{
-        display: block;width:100%;
-        clear: both;overflow: hidden;
-    }
-    /*底部*/
+.contentBox{
+	width:1200px;margin:0 auto;
+	.vanclImg{
+		margin:0;padding:0;
+		img{
+			display: inline;border:0;
+			width:1200px;height:576px;
+		}
+	}
+	.yuanling{
+		margin:0;padding:0;
+		img{
+			display: inline;border:0;
+			width:1200px;height:89px;
+		}
+	}
+	.ylbox, .lmbox, .ksbox, .srmbox, .tzbox{
+		width:1200px;height:auto;
+		padding:0 0 10px 0;margin:0 auto;
+		overflow: hidden;
+		ul{
+			width:1200px;padding:0 0 10px 0;
+			li{
+				background: #FFF;
+			    margin: 20px 15px 45px 20px;
+			    width: 260px;display: inline;
+			    height: 260px;float:left;
+			    padding: 0px;position:relative;
+			    a{
+			    	color: #333;
+    				text-decoration: none;
+    				img{
+    					width: 224px;
+					    height: 224px;
+					    display: block !important;
+					    margin: 0 auto;
+    				}
+			    }
+			    h3{
+			    	width:100%;height: 17px;
+				    line-height: 17px;
+				    text-align: center;
+				    color: #000000;
+				    font-weight: bold;
+				    background: #ffffff;
+				    margin: 5px 0px 7px 0px;
+				    overflow: hidden;
+				    a{
+				    	color: #676767;font-size: 14px;
+				    	width:201px;height:19px;display: block;
+				    	margin-left: 27px;
+				    }
+			    }
+			    .itPrice{
+			    	height: 25px;font-size: 10px;
+    				overflow: hidden;
+    				span:nth-child(1){
+						font-size: 13px; font-family: 微软雅黑; 
+						color: rgb(184, 0, 1); line-height: 25px; text-align: center; 
+						float: none !important; margin: 0px !important; text-decoration: line-through;
+    				}
+    				span:nth-child(2){
+						font-weight:bold;float: none !important; 
+						margin: 0 0 0 10px !important;font-size: 13px;
+						font-family: '微软雅黑';color: #b80001;
+						line-height: 25px;text-align: center;
+    				}
+			    }
+			}
+		}
+	}
+}
+/*searchBox*/
+.searchBox{
+	width:980px;margin:0 auto;
+	.search{
+		text-align: center;
+		.searchdiv{
+			text-align: center;
+			div{
+				width:410px;margin:0 auto;
+				.searchInput{
+					display: inline;float:left;
+					input{
+						border: none;
+					    background: url(http://i.vanclimg.com/search/sprites_20120420.png) no-repeat 0px -680px;
+					    height: 26px;
+					    width: 335px;
+					    line-height: 26px;
+					    padding-left: 5px;
+					}
+				}
+				.searchBtn{
+					display: inline;
+    				float: left;
+    				input{
+    					background: url(http://i.vanclimg.com/search/sprites_20120420.png) no-repeat 0px -654px;
+					    width: 70px;
+					    height: 26px;
+					    border: none;
+					    cursor: pointer;
+    				}
+				}
+			}
+		}
+		.hotWord{
+			line-height: 18px;
+		    height: 18px;
+		    overflow: hidden;
+		    width: 100%;
+		    span{
+		    	color: #a10000;
+		    }
+		    .keyword a{
+				margin-right: 7px;
+			    display: inline-block;
+			    white-space: nowrap;
+			    color: #333;
+    			text-decoration: none;
+    			&:hover{
+    				color: #a10000;
+    			}
+		    }
+		}
+	}
+}
+/*底部*/
     .vanclFoot{
         overflow: hidden;
         width: 1200px;
@@ -946,4 +674,3 @@ a:hover{text-decoration: none;}
             }
         }
     }
-}

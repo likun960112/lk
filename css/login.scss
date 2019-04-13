@@ -1,0 +1,296 @@
+@charset "utf-8";
+
+body{
+	margin:0;padding:0;
+	background: #fff;
+	display: block;
+	font-family: "Microsoft Yahei";
+    color: #000;
+    font-size: 12px;
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+/*logo*/
+.logo img{
+	cursor:pointer;
+	border:none;
+}
+.logo p{
+	margin:-20px;
+	position: absolute;right:200px;
+	a{
+		color:#000;text-decoration: none;
+		&:hover{
+			color: #CC0000;
+    		text-decoration: underline;
+		}
+	}
+}
+/*content*/
+.wrapper{
+	width: 1200px;
+    border-bottom: 1px solid #999;
+    margin: 50px auto 10px;
+    height:473px;
+    div{
+    	margin:0;padding:0;
+    }
+    .login{
+		width: 400px;
+	    border: 1px solid #D1D1D1;
+	    background-color: #fff;
+	    float: right;
+	    margin-top: 18px;
+	    margin-bottom: 20px;
+	    margin-right: 100px;
+	    .tab{
+	    	width: 400px;
+		    height: 35px;
+		    line-height: 35px;
+		    border-bottom: 1px solid #cbcbcb;
+		    .tabs{
+		    	margin:0;padding:0;
+		    	li{
+		    		width: 200px;
+				    height: 35px;
+				    line-height: 35px;
+				    float: left;
+				    text-align: center;
+				    background: #f5f5f5;
+				    color: #656565;
+				    cursor: pointer;
+				    font-size: 14px;
+		    	}
+		    	.on{
+		    		width: 200px;
+				    height: 35px;
+				    line-height: 35px;
+				    float: left;
+				    text-align: center;
+				    background: #b42025;
+				    color: #fff;
+				    font-weight: bolder;
+		    	}
+		    }
+	    }
+	    .shows{
+	    	margin:0;padding:0;
+	    	.user-info{
+	    		width: 415px;
+    			padding: 10px 20px 10px;
+
+    			.newtxt{
+    				height: 45px;
+				    width: 360px;
+				    border: solid 1px #cbcbcb;
+				    position: relative;
+				    overflow: hidden;
+				    label{
+				    	height: 45px;
+					    line-height: 45px;
+					    color: #acacac;
+					    position: absolute;
+					    left: 0px;
+					    top: 0px;
+					    width: 100%;
+					    display: block;
+					    text-align: left;
+					    z-index: 10;
+					    font-size: 14px;
+					    text-indent: 10px;
+    					background: #fff;font-weight:100;
+				    }
+				    input{
+				    	height: 45px;
+					    line-height: 45px;
+					    color: #656565;
+					    position: absolute;
+					    left: 0px;
+					    top: 0px;
+					    width: 100%;
+					    display: block;
+					    text-align: left;
+					    text-indent: 10px;
+					    z-index: 9;
+					    border: 0 none;
+					    font-size: 14px;
+				    }
+    			}
+    			.hint{
+    				clear: both;
+				    width: 220px;
+				    min-height: 16px;
+				    line-height: 16px;
+				    color: #A10000;
+				    text-indent: 30px;
+				    background: url(https://ssl.vanclimg.com/login/login_spritesbg.png) -351px -662px no-repeat;
+				    background-color: #FFF6F7;
+				    border: 1px solid #CC9998;
+				    margin-left: 48px;
+				    display: block;
+				    visibility: hidden;
+    			}
+    			.btBox{
+    				width:360px;
+    				.forget{
+    					line-height: 30px;
+					    display: inline;
+					    color: #b42025;
+					    font-size: 14px;
+					    font-weight: bolder;
+					    float: right;
+    				}
+    				.clear{
+    					clear: both;
+					    line-height: 0px;
+					    font-size: 0px;
+    				}
+    				.log{
+    					width: 100%;
+					    display: block;
+					    height: 45px;
+					    line-height: 45px;
+					    background: #b42025;
+					    color: #fff;
+					    text-align: center;
+					    font-size: 20px;
+    				}
+    			}
+	    	}
+	    	/*横线*/
+	    	.lines{
+	    		border-bottom: dotted 1px #909090;
+			    width: 100%;
+			    height: 1px;
+			    overflow: hidden;
+			    margin: 30px 0 0 0;
+	    	}
+	    	.partner{
+	    		width: 360px;
+			    height: auto;
+			    margin: 10px auto;
+			    .blank10{
+			    	clear: both;
+				    display: block;
+				    font-size: 1px;
+				    overflow: hidden;
+				    height: 10px;
+			    }
+			    .cooperation{
+			    	color: #a4a4a4;
+				    line-height: 14px;
+				    font-size: 14px;
+				    font-weight: bolder;
+			    }
+			    .hzPerson{
+			    	margin:0;padding:0;
+			    	a{
+			    		width: 33px;
+					    height: 33px;
+					    display: block;
+					    float: left;
+					    margin: 0 10px 0 0;
+					    background: url(http://i1.vanclimg.com/cms/20160118/logos.jpg) no-repeat left center;
+			    	}
+			    	.weixin{
+			    		background-position: 0px 0px;
+			    	}
+			    	.xiaomi{
+			    		background-position: -147px 0px;
+			    	}
+			    	.zhifubao{
+			    		background-position: -48px 0px;
+			    	}
+			    	.qq{
+			    		background-position: -189px 0px;
+			    	}
+			    	.qihu360{
+			    		background-position: -228px 0px;
+			    	}
+			    	.weibo{
+			    		background-position: -93px 0px;
+    					width: 36px;
+			    	}
+			    }
+			    .clear{
+			    	clear: both;
+				    line-height: 0px;
+				    font-size: 0px;
+			    }
+	    	}
+	    }
+    }
+    .advert{
+    	float:left;width:auto;
+    	height:auto;margin:18px 0 0 150px;
+    }
+}
+/*footer*/
+.footerArea{
+        margin:0;padding:0;
+        .footBottom{
+            width: 100%;
+            height: auto;
+            margin: 0px auto;
+            .footerTab{
+                width: 1200px;
+                height: auto;
+                margin: 10px auto;
+                p{
+                    text-align: center;
+                    line-height: 25px;
+                    color: #3e3a39;
+                    font-family: "Microsoft YaHei";
+                }
+            }
+        }
+        .blank20{
+            display: block;
+            width: 100%;
+            height: 20px;
+            line-height: 0px;
+            font-size: 0px;
+            clear: both;
+            overflow: hidden;
+        }
+        .subFooter{
+            width: 980px;
+            margin: 0px auto 25px;
+            text-align: center;
+            a{
+                margin:0 10px;
+            }
+            .redLogo{
+                background: url(http://i.vanclimg.com/cms/20140116/spritesbgtop.png) no-repeat scroll 0 -581px transparent;
+                display: inline-block;
+                height: 42px;
+                width: 113px;
+            }
+            .costumeOrg{
+                background: url(http://i.vanclimg.com/cms/20140116/spritesbgtop.png) no-repeat scroll 0 -629px transparent;
+                display: inline-block;
+                height: 45px;
+                width: 156px;
+            }
+            .wsjyBzzx{
+                background: url(http://i.vanclimg.com/cms/20140116/spritesbgtop.png) no-repeat scroll 0 -675px transparent;
+                display: inline-block;
+                height: 42px;
+                width: 96px;
+            }
+            .vanclMsg{
+                background: url(http://i.vanclimg.com/cms/20140116/spritesbgtop.png) no-repeat scroll -97px -675px transparent;
+                display: inline-block;
+                height: 42px;
+                width: 101px;
+            }
+            .vanclqingNian{
+                background: url(http://i.vanclimg.com/cms/20140116/spritesbgtop.png) no-repeat scroll -202px -675px transparent;
+                display: inline-block;
+                height: 42px;
+                width: 42px;
+            }
+
+        }
+    }

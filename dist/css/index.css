@@ -312,7 +312,7 @@ a:hover {
           padding-left: 3px; }
 
 .vanclHead .navBox {
-  z-index: 300 !important;
+  z-index: 0;
   width: 1200px;
   height: 22px !important;
   margin: 30px auto !important;
@@ -348,7 +348,7 @@ a:hover {
       font-size: 16px;
       font-family: "Microsoft YaHei";
       position: relative;
-      z-index: 220; }
+      z-index: 221; }
       .vanclHead .navBox ul li a {
         color: #727171; }
         .vanclHead .navBox ul li a:hover {
@@ -410,7 +410,7 @@ a:hover {
       height: 535px;
       overflow: hidden;
       position: relative;
-      z-index: 5; }
+      z-index: -1; }
       .vanclCon .bannerBox .banner .bannerTab {
         width: 710px;
         height: 535px; }
@@ -503,9 +503,11 @@ a:hover {
           cursor: pointer;
           height: 60px;
           width: 28px;
-          z-index: 10;
+          z-index: 100000;
           text-indent: -9999px;
           display: inline-block; }
+          .vanclCon .bannerBox .banner .bannerTab .prev:hover {
+            background: url(http://i3.vanclimg.com/cms/20160918/focus_lr0918.png) no-repeat scroll 0px -61px; }
         .vanclCon .bannerBox .banner .bannerTab .next {
           background: url(http://i3.vanclimg.com/cms/20160918/focus_lr0918.png) no-repeat scroll -52px 0px;
           position: absolute;
@@ -514,15 +516,18 @@ a:hover {
           cursor: pointer;
           height: 60px;
           width: 28px;
-          z-index: 10;
+          z-index: 100000;
           text-indent: -9999px;
           display: inline-block; }
+          .vanclCon .bannerBox .banner .bannerTab .next:hover {
+            background: url(http://i3.vanclimg.com/cms/20160918/focus_lr0918.png) no-repeat scroll -52px -61px;
+            background: url(http://i3.vanclimg.com/cms/20160918/focus_lr0918.png) no-repeat scroll -52px -61px; }
         .vanclCon .bannerBox .banner .bannerTab .rslides_tabs {
           height: 12px;
           position: absolute;
           right: 46%;
           top: 500px;
-          z-index: 10;
+          z-index: 1000000;
           overflow: hidden; }
           .vanclCon .bannerBox .banner .bannerTab .rslides_tabs li {
             width: 12px;

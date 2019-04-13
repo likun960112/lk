@@ -1,0 +1,1236 @@
+@charset "utf-8";
+/*首页头部*/
+body{
+	font-size: 12px;
+    font-family: "宋体";
+    color: #333;
+}
+a:hover{text-decoration: none;}
+
+.vanclHead{width:100%;height:auto;}
+
+.vanclHead .headerBox{width:100%;height:32px;background:#f7f7f7;}
+.vanclHead .headerBox .headerTop{width:1200px;height:32px;border-bottom:1px solid #ccc;}
+.vanclHead .headerBox .headerTop .headerTopRight{
+	width:126px;float:right;position: relative;z-index:9000;
+}
+ .vanclHead .headerBox .headerTop .headerTopRight .notice{
+	width: 70px;
+    height: 18px;
+    line-height: 18px;
+    margin: 7px 0px 0 0px;
+    float: left;
+    display: inline;
+    position: relative;
+    z-index: 1000;
+    cursor: pointer;
+}
+.vanclHead .headerBox .headerTop .headerTopRight .notice .headerTop-title{
+	font-size: 12px;
+	display: block;background-position:0px 0px;
+	background: url(http://i3.vanclimg.com/cms/20160912/notice.png) no-repeat scroll 0px 0px;
+    width: 74px;
+    padding-left: 26px;
+    text-align: left;
+    color:#808080;
+} 
+
+.vanclHead .headerBox .headerTop .headerTopRight .attention{float:right;}
+/*.headerBox .headerTop .headerTopRight .attention em{
+    background-position: 0px -117px;
+    width: 47px;
+    height: 22px;
+    display: none;
+}*/
+.headerBox .headerTop .headerTopRight .attention .weixin-box{
+    color:#808080;float:left;position: relative;width:50px;height:29px;
+}
+.headerBox .headerTop .headerTopRight .attention .weixin-box .weixin{
+    float: left;
+    margin-top: 2px;
+    display: inline;
+    cursor: pointer;
+    height: 21px;
+    width:20px;
+    background: url(http://i1.vanclimg.com/cms/20150605/w1.jpg) no-repeat left 3px;
+}
+.headerBox .headerTop .headerTopRight .attention .weixin-box .weixin-tip{
+    position: absolute;
+    width: 148px;
+    height: 169px;
+    right: 33px;
+    top: 30px;
+    border: 1px solid #e5e5e5;
+    background: url(http://i2.vanclimg.com/header/20130116/weixin.png) no-repeat;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 10000;
+     display: none;
+}
+.headerBox .headerTop .headerTopRight .attention .weibo{
+    background: url(http://i2.vanclimg.com/cms/20150605/w2.jpg) no-repeat left 3px;
+    width:20px;height:25px;float: left;margin-top: 4px;
+    position: absolute;right:0;top:-3px;
+}
+
+.headerBox .headerTop .headerTopLeft{float:right;}
+.headerBox .headerTop .headerTopLeft .login{float:left;font-size:12px;/*width:228px;height:32px;*/}
+.headerBox .headerTop .headerTopLeft .login .top{color:#808080;line-height: 32px; font-size: 12px;}
+.headerBox .headerTop .headerTopLeft .login span a{text-decoration: none;font-size: 12px;color:#808080;padding:0 5px;}
+.headerBox .headerTop .headerTopLeft .indent{margin:0 0 0 13px;float:left;display: inline;}
+.headerBox .headerTop .headerTopLeft .indent a{display:block;padding-right:14px;font-size: 12px;line-height: 32px;color:#808080;}
+.headerBox .headerTop .headerTopLeft .indent a:hover{color:#a10000;}
+
+/*顶部logo搜索栏*/
+.vanclHead .logoSearch{
+    width:1200px;height:62px;margin:20px auto 25px;
+    .vanclSearch{
+        width:438px;padding-top: 8px;float:right;
+        .searchTab{height:29px;
+            .search{float:left;
+                .enter{
+                    width:249px;height:27px;
+                    padding:0 5px;line-height: 27px;
+                    border:1px solid #c9caca;
+                    float:left;
+                }
+                .btn{
+                    width:49px;height:29px;border:none;
+                    cursor:pointer;
+                   background: url(http://i2.vanclimg.com/cms/20150228/vanclsprite.png) no-repeat scroll -100px 0px;
+                }
+            }
+
+            .active{
+                width:105px;height:28px;border:1px solid #c1383e;
+                background: url(http://i2.vanclimg.com/cms/20150228/vanclsprite.png) no-repeat scroll -154px 0px;
+                position: relative;
+                z-index: 10;
+                float: right;
+                p .carTab{
+                    color:#fff;display: block;
+                    padding-left: 29px;padding-top:6px;font-size: 12px;
+                }
+                .bottomlines{
+                    margin:0;padding:0;
+                }
+                .buyCar{
+
+                    width: 315px;
+                    height: auto;
+                    padding: 5px;
+                    border: 1px solid #b81c22;
+                    position: absolute;
+                    right: -1px;
+                    top: 27px;
+                    _right: -2px;
+                    background: #ffffff;
+                    display: none;
+                    .havepru{
+                        width:90%;margin:0 auto;
+                        .haveTop{
+                            margin:0;padding:0;
+                        }
+                        .haveMid{
+                            margin:0;padding:0;
+                            h2{
+                                line-height: 33px;border-bottom:1px solid #ececec;
+                                color:#727171;font-size: 12px;
+                            }
+                            ul{
+                                margin:0;padding:0;
+                                li{
+                                    padding: 0;
+                                    height: 40px;
+                                    overflow: hidden;
+                                    .carLeft{
+                                        display: block;
+                                        float: left;
+                                        width: 40px;
+                                        height: 40px;
+                                        padding: 2px 4px 2px 2px;
+                                        a{
+                                            color:#333;
+                                        }
+                                    }
+                                    .carRight{
+                                        display: block;
+                                        float: left;
+                                        width: 190px;
+                                        h3{
+                                            line-height: 25px;font-size: 12px;
+                                            a{
+                                                color:#727171;line-height: 25px;
+                                                &:hover{
+                                                    color:#a10000;
+                                                }
+                                            }
+                                        }
+                                        span{
+                                            display: block;
+                                            color: #727171;
+                                            float: left;
+                                            line-height: 18px;
+                                            font-family: "Microsoft Yahei";width:100%;
+                                            height:0;font-size: 0px;clear: both;
+                                            overflow: hidden;
+                                        }
+                                        .price{
+                                            color: #a10000;
+                                            strong{
+                                                font-style: normal;
+                                                font-weight: normal;
+                                                color: #a10000;
+                                            }
+                                            em{
+                                                font-style: normal;
+                                                font-weight: normal;
+                                                 color: #a10000;
+                                            }
+                                        }
+                                    }
+                                    .carDelect{
+                                        display: block;
+                                        float: right;
+                                        width: 42px;
+                                        height: 40px;
+                                        color: #a10000;
+                                        text-align: right;
+                                        line-height: 40px;
+                                        a{
+                                            color: #a10000;
+                                            text-align: right;
+                                            line-height: 40px;
+                                        }
+                                    }
+                                    .blank0{
+                                        width:100%;height:0;font-size: 0;
+                                        clear: both;overflow: hidden;
+                                    }
+                                }
+                            }
+                            .buyCarPageLine{
+                                height: 8px;
+                                overflow: hidden;
+                                border-bottom: 1px solid #ececec;
+                                margin: 0 0 5px 0;
+                            }
+                            .buyCarPage{
+                                margin:0;padding:0;
+                                .totalPage{
+                                    margin:0;padding:0;
+                                    div{
+                                        display: block;
+                                        color: #a3a3a3;
+                                        float: left;
+                                        span{
+                                            display: block;
+                                            color: #b81c22;
+                                        }
+                                    }
+                                    strong{
+                                        display: block;
+                                        float: right;
+                                        height: 29px;
+                                        line-height: 29px;
+                                        background: #b81c22;
+                                        padding: 0 10px;
+                                        a{
+                                            color:#fff;
+                                            span{
+                                                color:#fff;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .haveBom{
+                            margin:0;padding:0;
+                        }
+                    }
+                }
+            }
+
+        }
+        .hotWord{
+            width: 440px;
+            padding-top: 5px;
+            line-height: 18px;
+            color: #727171;
+            padding-left: 15px;
+            p{
+                margin:0;padding:0;
+                a{
+                    color: #727171;
+                    margin: 0 5px 0 0;
+                    padding-left: 3px;
+                }
+            }
+        }
+    }
+}
+.vanclHead .navBox{
+   z-index: 20;
+    width: 1200px;height: 22px!important;
+    margin: 30px auto!important;
+    padding-left: 200px!important;
+    position: relative!important;
+    ul{
+        margin:0;padding:0;
+        .vanclLogo{
+            text-align: left;position: absolute;
+            left: 0;width:100%;float:left;line-height: 22px;
+            bottom: 0;font-size: 16px;
+            font-family: "Microsoft YaHei";
+            padding: 0px;z-index: 220;
+            background: none;
+            a{
+                display: block;
+                width: 185px;
+                height: 46px;
+                background: url(http://i4.vanclimg.com/cms/20160923/logo18546.png) no-repeat scroll;
+            }
+        }
+        li{
+            float: left;
+            width: 99px;
+            line-height: 22px;
+            padding: 0px 0px 10px;
+            text-align: center;
+            font-size: 16px;
+            font-family: "Microsoft YaHei";
+            position: relative;
+            z-index: 221; 
+            a{
+                color:#727171;
+                &:hover{
+                    color:#b81c22;
+                }
+            }
+            .NavLine{
+                display: block;
+                height: 16px;
+                width: 1px;
+                border-right: solid 1px #888;
+                position: absolute;
+                right: 1px;
+                top: 5px;
+                overflow: hidden;
+            }
+            .subNav{
+                width: 99px;
+                background: #fff;
+                position: absolute;
+                left: -2px;
+                top: 30px;
+                display: none;
+                span{
+                    display: block;
+                    width: 100%;
+                    height: 5px;
+                    border-top: 5px solid #B81C22;
+                }
+                ul{
+                    border: 1px solid #efefef;
+                    border-top: 0px;
+                    padding: 10px 0px;
+                    li{
+                        text-align: center;
+                        line-height: 35px;
+                        background: none;
+                        padding: 0px;
+                        float: none;
+                        font-size: 16px;
+                        a{
+                            color:#727171;
+                            &:hover{
+                                -webkit-column-rule: #b81c22;
+                                -moz-column-rule: #b81c22;
+                                -o-column-rule: #b81c22;
+                                column-rule: #b81c22;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/*固定窗口*/
+.fixed-window{
+    width:100%;
+    height:45px;
+    overflow: hidden;
+    border-bottom: 1px solid #e5e6e6;
+    min-width: 980px;
+    top: 0;
+    left: 0;
+    position: fixed !important;
+    background:#fff;
+    z-index:99;
+    h2{
+        margin-left: 10px;
+        float: left;
+        margin-right: 10px;
+        line-height: 45px;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: "Microsoft YaHei";
+    }
+    .addCar{
+        float:right;width: 168px;
+        margin-right: 10px;height: 33px;
+        display: block;
+        position: relative;
+        top: 3px;
+        .cartab{
+            color:#fff;background: url(http://i2.vanclimg.com/cms/20150228/vanclsprite.png) no-repeat scroll -147px -285px;
+            width: 168px;height: 33px;
+            display: block;
+            position: relative;
+            top: 3px;
+            margin-right: 10px;
+        }
+    }
+    .productNav{
+        height:45px;float:right;
+        li{
+            float: left;
+            color: #808080;
+            height: 45px;
+            margin: 0 10px 0 0;
+            a{
+                font-family: 微软雅黑;
+                color: #000;
+                font-weight: bold;
+                font-size: 15px;display: inline-block;
+                padding: 0px 15px 0px 0px;
+                height: 45px;
+                line-height: 45px;
+            }
+        }
+    }
+}
+/*content*/
+.particularsBox{
+    width:1200px;margin:0 auto;
+    .blank10{
+        clear: both;
+        display: block;
+        font-size: 0;
+        height: 10px;overflow: hidden;
+    }
+    .breadNav{
+        color: #000;
+        height: 22px;
+        a{
+            color: #333;
+            text-decoration: none;
+            &:hover{
+                color: #a10000;
+            }
+        }
+        span{
+            margin: 0 8px;
+        }
+    }
+    .blank0{
+        display: block;
+        width: 100%;
+        height: 0px;
+        line-height: 0px;
+        font-size: 0px;
+        clear: both;
+        overflow: hidden;
+    }
+    .product-news{
+        height: auto;
+        margin: 0px auto;
+        zoom: 1;
+        .showproduct{
+            height: 45px;
+            border-bottom: 1px solid #e5e6e6;
+            min-width: 980px;
+            .product-title{
+                margin:0;padding:0;
+                h2{
+                    margin-left: 10px;
+                    float: left;
+                    margin-right: 10px;
+                    line-height: 45px;
+                    font-size: 18px;color:#333;
+                    font-weight: bold;
+                    font-family: "Microsoft YaHei";
+                }
+                .productNav{
+                    height:45px;float:right;
+                    li{
+                        float: left;
+                        color: #808080;
+                        height: 45px;
+                        margin: 0 10px 0 0;
+                        a{
+                            font-family: 微软雅黑;
+                            color: #000;
+                            font-weight: bold;
+                            font-size: 15px;display: inline-block;
+                            padding: 0px 15px 0px 0px;
+                            height: 45px;
+                            line-height: 45px;
+                        }
+                    }
+                }
+            }
+        }
+        .blank30{
+            display: block;
+            width: 100%;
+            height: 30px;
+            line-height: 0px;
+            font-size: 0px;
+            clear: both;
+            overflow: hidden;
+        }
+        .blank0{
+            display: block;
+            width: 100%;
+            height: 0px;
+            line-height: 0px;
+            font-size: 0px;
+            clear: both;
+            overflow: hidden;
+        }
+        .magnifyingGlass{
+            width:634px;height: auto;
+            float: left;
+            .leftBox{
+                width: 72px;
+                height: auto;
+                float: left;
+                margin-top: -23px;
+                position: relative;
+                display: inline;
+                .smallImg{
+                    display: inline;
+                    float: left;
+                    width: 72px;
+                    .smallImgUp{
+                        cursor:pointer;margin-top: 13px;
+                        height:5px;width:72px;overflow: hidden;
+                    }
+                    .upper{
+                        background-image: url(//i1.vanclimg.com/item/sprite0725.png);
+                        background-position: -3270px 0;
+                    }
+                    .imageMenu{
+                        height:415px;overflow: hidden;
+                        li{
+                            margin-top: 11px;
+                            border: 1px solid #B4B4B4;
+                            width: 70px;
+                            height: 70px;
+                            overflow: hidden;
+                            span{
+                                display: inline-block;
+                                width: 68px;cursor: pointer;
+                                height: 68px;
+                                border: 1px solid #fff;
+                            }
+                        }
+                        li:nth-child(1) span{  
+                            background-image: url(//i.vanclimg.com/joinimages.ashx?d=/product/&href=6/3/7/6378388/small/6378388-1j201801111409218163.jpg,6/3/7/6378388/small/6378388-4201709221624090327.jpg,6/3/7/6378388/small/6378388-5201709221624090327.jpg,6/3/7/6378388/small/6378388-6201709221624090327.jpg,6/3/7/6378388/small/6378388-7201709221624090327.jpg);
+                            background-position: 0px -0px
+                        }
+                        li:nth-child(2) span{
+                            background-image: url(//i.vanclimg.com/joinimages.ashx?d=/product/&href=6/3/7/6378388/small/6378388-1j201801111409218163.jpg,6/3/7/6378388/small/6378388-4201709221624090327.jpg,6/3/7/6378388/small/6378388-5201709221624090327.jpg,6/3/7/6378388/small/6378388-6201709221624090327.jpg,6/3/7/6378388/small/6378388-7201709221624090327.jpg);
+                            background-position: 0px -68px
+                        }
+                        li:nth-child(3) span{
+                            background-image: url(//i.vanclimg.com/joinimages.ashx?d=/product/&href=6/3/7/6378388/small/6378388-1j201801111409218163.jpg,6/3/7/6378388/small/6378388-4201709221624090327.jpg,6/3/7/6378388/small/6378388-5201709221624090327.jpg,6/3/7/6378388/small/6378388-6201709221624090327.jpg,6/3/7/6378388/small/6378388-7201709221624090327.jpg);
+                            background-position: 0px -136px
+                        }
+                        li:nth-child(4) span{
+                            background-image: url(//i.vanclimg.com/joinimages.ashx?d=/product/&href=6/3/7/6378388/small/6378388-1j201801111409218163.jpg,6/3/7/6378388/small/6378388-4201709221624090327.jpg,6/3/7/6378388/small/6378388-5201709221624090327.jpg,6/3/7/6378388/small/6378388-6201709221624090327.jpg,6/3/7/6378388/small/6378388-7201709221624090327.jpg);
+                            background-position: 0px -204px
+                        }
+                        li:nth-child(5) span{
+                            background-image: url(//i.vanclimg.com/joinimages.ashx?d=/product/&href=6/3/7/6378388/small/6378388-1j201801111409218163.jpg,6/3/7/6378388/small/6378388-4201709221624090327.jpg,6/3/7/6378388/small/6378388-5201709221624090327.jpg,6/3/7/6378388/small/6378388-6201709221624090327.jpg,6/3/7/6378388/small/6378388-7201709221624090327.jpg);
+                            background-position: 0px -272px
+                        }
+                        #onlickImg{
+                            border: 1px solid #a10000;
+                        }
+                    }
+                    .smallImgDown{
+                        cursor: pointer;margin-top: 11px;
+                        width:72px;height:5px;overflow: hidden;
+                    }
+                    .downer{
+                        background-image: url(//i1.vanclimg.com/item/sprite0725.png);
+                        background-position: -1927px 0;
+                    }
+                }
+            }
+            .boxCenter{
+                margin:0 80px;width: 402px;
+                float: right;
+                display: inline;
+                #vertical{
+                    width: 400px;
+                    height: 400px;position: relative;
+                    float: right;
+                    display: inline;
+                    margin-top: 7px;
+                    overflow: hidden;
+                    border: 1px solid #e5e6e6;
+                    #midImg{
+                        width:400px;height:400px;
+                        border:0;
+                    }
+                    #lucencyBox{
+                        display: none;width:200px;height:200px;
+                        position: absolute;cursor: crosshair;
+                        left:0;top:0;opacity: 0.6;
+                        background-color: #e6eaf3;
+                        border: 1px solid white;
+                    }
+                }
+            }
+            .hiddenBox{
+                width:400px;height:400px;
+                border:1px solid #000;
+                z-index: 2;position: absolute;
+                top:287px;left:720px;overflow: hidden;
+                display: none;
+                img{
+                    width:700px;height:700px;
+                    position: absolute;
+                }
+            }
+
+        }
+        .scBox{
+            width: 566px;float:right;
+            overflow: hidden;
+            .danpinRight{
+                float: left;
+                margin-top: -6px;
+                #priceArea{
+                    margin:0;padding:0;
+                    .blank10{
+                        clear: both;
+                        display: block;
+                        font-size: 0;
+                        height: 10px;overflow: hidden;
+                    }
+                    .cuxiaoPrice{
+                        height:26px;color:#A10000;
+                        .tehuiMoney{
+                            height:26px;display: inline-block;color:#A10000;
+                            float:left;
+                        }
+                        strong{
+                            font-family: Tahoma;
+                            font-size: 24px;
+                        }
+                    }
+                }
+                .listArea{
+                    margin-top: -2px;
+                    .select-area{
+                        position: relative;
+                        zoom: 1;
+                        .blank10{
+                            clear: both;
+                            display: block;
+                            font-size: 0;
+                            height: 10px;overflow: hidden;
+                        }
+                        .danpinColor_select{
+                            overflow: hidden;
+                            .danpinColorTitle{
+                                float: left;
+                                color: #666666;
+                                padding-bottom: 10px;
+                                p{
+                                    display: block;
+                                    margin-block-start: 1em;
+                                    margin-block-end: 1em;
+                                    margin-inline-start: 0px;
+                                    margin-inline-end: 0px;
+                                }
+                            }
+                            .selectColor{
+                                width:525px;float:left;
+                                padding:0;
+                                ul{
+                                    margin:0;padding:0;
+                                    li{
+                                        cursor: pointer;border: 1px solid #B4B4B4;
+                                        display: inline;
+                                        float: left;
+                                        height: 40px;
+                                        margin: 0px 8px 8px 0px;
+                                        width: 95px;
+                                        position: relative;
+                                        .colorBlock{
+                                            background: none repeat scroll 0 0 #FFFFFF;
+                                            height: 38px;
+                                            margin: 1px auto 0;
+                                            width: 93px;
+                                            a{
+                                                color:#333;text-align: none;
+                                                span{
+                                                    display: block;
+                                                    float: left;
+                                                    width: 36px;
+                                                    height: 36px;
+                                                    margin: 1px 0px 0px 1px;
+                                                    overflow: hidden;
+                                                    cursor: pointer;
+                                                }
+                                                .spriteColors{
+                                                    background-image: url(http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637838/68163,6/3/7/637838/88163);
+                                                }
+                                                p{
+                                                    color: #666;
+                                                    display: inline;
+                                                    float: left;
+                                                    line-height: 16px;
+                                                    margin-left: 6px;
+                                                    padding-top: 4px;
+                                                    width: 46px;
+                                                    overflow: hidden;
+                                                    height: 34px;
+                                                    cursor: pointer;
+                                                }
+                                            }
+                                        }
+                                        .colorHoverok{
+                                            display: block;
+                                            width: 14px;
+                                            height: 13px;
+                                            background: url(//i1.vanclimg.com/item/sprite0725.png) no-repeat scroll;
+                                            background-position: -1151px 0;
+                                            position: absolute;
+                                            right: 1px;
+                                            bottom: 1px;
+                                        }
+                                    }
+                                    #ontabColor{
+                                        background: #a10000;
+                                        border: 1px solid #a10000;
+                                    }
+                                }
+                            }
+                        }
+                        .sizeArea{
+                            overflow: hidden;
+                            margin-bottom: 15px;
+                            margin-top: 12px;
+                            .danpinColorTitle{
+                                float: left;
+                                color: #666666;
+                                line-height: 22px;
+                                padding-bottom: 10px;
+                                p{
+                                    color: #a10000;
+                                }
+                            }
+                            .selSize{
+                                width: 335px;
+                                float: left;
+                                ul{
+                                    margin:0;
+                                    li{
+                                        background: #FFFFFF;
+                                        border: 1px solid #C8C8C8;
+                                        color: #333333;
+                                        cursor: pointer;
+                                        padding: 0px;
+                                        display: inline;
+                                        float: left;
+                                        height: 24px;
+                                        line-height: 22px;
+                                        margin-right: 5px;
+                                        margin-bottom: 5px;
+                                        text-align: center;
+                                        position: relative;
+                                        &:hover{
+                                            border: 1px solid #A10000;
+                                        }
+                                        p{
+                                            display: block;
+                                            float: left;
+                                            height: 22px;
+                                            margin: 1px 1px 0px 1px;
+                                            background: #fff;
+                                            padding: 0 9px;
+                                            width: auto;
+                                        }
+                                    }
+                                }
+                            }
+                            .danpinxuanze{
+                                border: 1px solid #CC9998;
+                                width: 170px;
+                                height: 20px;
+                                margin-left: 36px;
+                                line-height: 19px;
+                                text-align: center;
+                                color: #999999;
+                                clear: both;
+                                margin-bottom: 5px;
+                                .sprites{
+                                    background-image: url(//i1.vanclimg.com/item/sprite0725.png);
+                                    background-color: transparent;
+                                    background-repeat: no-repeat;
+                                }
+                                p{
+                                    color: #a10000;
+                                }
+                            }
+                        }
+                        .blank8{
+                            clear: both;
+                            display: block;
+                            font-size: 1px;
+                            overflow: hidden;
+                        }
+                        .goodsNum{
+                            overflow: hidden;padding:0;
+                            .danpinColorTitle{
+                                float: left;
+                                color: #666666;
+                                padding-bottom: 10px;
+                            }
+                            .danpinNumSelect{
+                                float: left;
+                                overflow: hidden;
+                                #selectedAmount{
+                                    height: 20px;
+                                    line-height: 20px;
+                                    width: 53px;display: inline;
+                                    float: left;
+                                }
+                                .blank15{
+                                    width: 100%;
+                                    height: 15px;
+                                    font-size: 0px;
+                                    clear: both;
+                                    overflow: hidden;
+                                }
+                            }
+                        }
+                        .blank0{
+                            display: block;
+                            width: 100%;
+                            height: 0px;
+                            line-height: 0px;
+                            font-size: 0px;
+                            clear: both;
+                            overflow: hidden;
+                        }
+                        .danpinHas{
+                            padding-bottom: 15px;
+                            width: 400px;
+                            .selectArea-t{
+                                width: 285px;
+                                float: left;
+                                .goodsAddArea{
+                                    position: relative;
+                                    width: 400px;
+                                    z-index: 0;
+                                    background: none repeat scroll 0 0 transparent;
+                                    border: 0px;
+                                    padding: 0px;
+                                    .danpinColorTitle{
+                                        float: left;
+                                        color: #666666;
+                                        line-height: 22px;
+                                        padding-bottom: 10px;
+                                        p{
+                                            color:#666;line-height: 22px;
+                                        }
+                                    }
+                                    .goodsAdd{
+                                        margin:0;padding:0;
+                                        .selectName{
+                                            width: auto;
+                                            max-width: 135px;
+                                            overflow: hidden;float: left;
+                                            height: 22px;
+                                            line-height: 22px;
+                                            color: #666666;
+                                            font-weight: bold;
+                                        }
+                                        .selectPoint{
+                                            float: left;
+                                            height: 22px;
+                                            line-height: 22px;
+                                            color: #666666;
+                                            font-weight: bold;
+                                        }
+                                        .selectSize{
+                                            width: auto;
+                                            max-width: 135px;
+                                            overflow: hidden;    float: left;
+                                            height: 22px;
+                                            line-height: 22px;
+                                            color: #666666;
+                                            font-weight: bold;
+                                        }
+                                        .nowHasGoods{
+                                            color: #a10000;
+                                            margin-left: 15px;float: left;
+                                            height: 22px;
+                                            line-height: 22px;
+                                            font-weight: bold;
+                                        }
+                                        .blank0{
+                                            display: inline;
+                                            float: left;
+                                            line-height: 20px;
+                                            width: 100%;
+                                            height: 0px;
+                                            font-size: 0px;
+                                            clear: both;
+                                            overflow: hidden;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .selectGoods{
+                            height: 22px;
+                        }
+                        .shoppingNews{
+                            float:left;
+                            a{
+                                color:#333;text-decoration: none;
+                                span{
+                                    margin-left: 60px;
+                                    margin-top: 5px;
+                                    display: block;
+                                    font-size: 14px;
+                                    color: #A50309;
+                                }
+                            }
+                            .buyNowBtn{
+                                background: #F7ABAF;
+                                width: 166px;
+                                height: 31px;
+                                display: block;
+                                float: left;
+                                margin-right: 13px;
+                                border: solid 1px rgb(183, 27, 33);
+                            }
+                            .addtoCarBtn{
+                                background: url(http://i2.vanclimg.com/cms/20150228/vanclsprite.png) no-repeat scroll -147px -285px;
+                                width: 168px;
+                                height: 33px;
+                                display: block;
+                                float: left;
+                            }
+                        }
+                        .blank20{
+                            display: block;
+                            width: 100%;
+                            height: 20px;
+                            line-height: 0px;
+                            font-size: 0px;
+                            clear: both;
+                            overflow: hidden;
+                        }
+                    }
+                    .blank0{
+                        display: block;
+                        width: 100%;
+                        height: 0px;
+                        line-height: 0px;
+                        font-size: 0px;
+                        clear: both;
+                        overflow: hidden;
+                    }
+                }
+                #hintArea{
+                    margin-top: 3px;
+                    .danpin_tsBox{
+                        width: 400px;
+                        height: auto;
+                        margin-bottom: 15px;
+                        padding-bottom: 10px;
+                        border-bottom: 1px solid #A20000;
+                        h4{
+                            height: 4px;
+                            line-height: 14px;
+                            margin-bottom: 6px;
+                            position: relative;width: 400px;
+                            color: #a20000;
+                            font-weight: bold;
+                            border-bottom: 1px solid #a20000;
+                            span{
+                                display: inline-block;
+                                height: 14px;
+                                line-height: 14px;
+                                text-align: center;
+                                background: #ffffff;
+                                position: absolute;
+                                left: 167px;
+                                top: -4px;
+                                padding: 0 8px;
+                            }
+                        }
+                        ul{
+                            margin:0;padding:0;
+                            li{
+                                line-height: 24px;
+                                color: #666666;
+                            }
+                        }
+                    }
+                }
+                .blank15{
+                    display: block;
+                    width: 100%;
+                    height: 15px;
+                    line-height: 0px;
+                    font-size: 0px;
+                    clear: both;
+                    overflow: hidden;
+                }
+            }
+        }
+    }
+    .blank20{
+        display: block;
+        width: 100%;
+        height: 20px;
+        line-height: 0px;
+        font-size: 0px;
+        clear: both;
+        overflow: hidden;
+    }
+    .particularsArea{
+        border-top: 1px solid #e5e6e6;
+        .RsetTabArea{
+            width: 748px;
+            display: inline;
+            .blank8{
+                clear: both;
+                display: block;
+                font-size: 1px;
+                overflow: hidden;
+                height: 8px;
+            }
+            .contentArea{
+
+            }
+            .RsetTabCon{
+                margin-bottom: 50px;
+            }
+            .blank20{
+                display: block;
+                width: 100%;
+                height: 20px;
+                line-height: 0px;
+                font-size: 0px;
+                clear: both;
+                overflow: hidden;
+            }
+        }
+    }
+}
+/*底部*/
+    .vanclFoot{
+        overflow: hidden;
+        width: 1200px;
+        height: 282px;
+        margin: 0px auto;
+        padding: 0px 40px 0px;
+        border: 1px solid #e0e0e1;
+        font-family: "Microsoft YaHei";
+        margin-bottom: 25px;
+        .customer{
+            margin: 33px 0px 23px;
+            overflow: hidden;zoom:1;
+            ul{
+                margin:0;padding:0;
+                li{
+                    float:left;width: 370px;
+                    height: 138px;
+                    border-right: 1px solid #e0e0e1;
+                    margin-right: 0px;
+                    a{
+                        color:#333;text-decoration: none;
+                        p{
+                            text-align: center;
+                            font-size: 14px;
+                            color: #727171;
+                            line-height: 26px;
+                            img{
+                                margin:0 auto;display: block;
+                            }
+                        }
+                        .lineCustomer{
+                            margin:15px auto 30px;
+                        }
+                        .lineTime{
+                            margin: 0px auto;
+                            width: 156px;
+                            height: 32px;
+                            text-align: center;
+                            line-height: 32px;
+                            font-size: 14px;
+                            background: #b81c22;
+                            color: #ffffff;
+                        }
+                        .seven{
+                            margin:20px 0px;
+                        }
+                    }
+                }
+                .twoCode{
+                    border-right: none;width:370px;
+                    height:138px;margin-right: 0px;
+                    p{
+                        text-align: center;
+                        font-size: 14px;
+                        color: #727171;
+                        line-height: 26px;
+                        img{
+                            width:104px;height:104px;
+                            margin:0 auto;
+                        }
+                        em{
+                            color: #a10000;
+                        }
+                    }
+                }
+            }
+        }
+        .others{
+            height: 57px;
+            padding: 17px 0px 14px;
+            background: #f8f8f8;
+            width:100%;
+            margin: 0;
+            ul{
+                margin:0;padding:0;
+                li{
+                    padding: 0px 65px;
+                    line-height: 26px;
+                    border-right: 1px solid #dadadb;
+                    width: auto;
+                    text-align: center;
+                    margin-right: 0px;float:left;
+                    a{
+                        color:#323232;
+                    }
+                }
+                .none{
+                    border-right: none;
+                }
+            }
+        }
+    }
+    /*footerArea*/
+    .footerArea{
+        margin:0;padding:0;
+        .footBottom{
+            width: 100%;
+            height: auto;
+            margin: 0px auto;
+            border-top: 1px solid #3e3a39;
+            .footerTab{
+                width: 1200px;
+                height: auto;
+                margin: 10px auto;
+                p{
+                    text-align: center;
+                    line-height: 25px;
+                    color: #3e3a39;
+                    font-family: "Microsoft YaHei";
+                }
+            }
+        }
+        .blank20{
+            display: block;
+            width: 100%;
+            height: 20px;
+            line-height: 0px;
+            font-size: 0px;
+            clear: both;
+            overflow: hidden;
+        }
+        .subFooter{
+            width: 980px;
+            margin: 0px auto 25px;
+            text-align: center;
+            a{
+                margin:0 10px;
+            }
+            .redLogo{
+                background: url(http://i.vanclimg.com/cms/20140116/spritesbgtop.png) no-repeat scroll 0 -581px transparent;
+                display: inline-block;
+                height: 42px;
+                width: 113px;
+            }
+            .costumeOrg{
+                background: url(http://i.vanclimg.com/cms/20140116/spritesbgtop.png) no-repeat scroll 0 -629px transparent;
+                display: inline-block;
+                height: 45px;
+                width: 156px;
+            }
+            .wsjyBzzx{
+                background: url(http://i.vanclimg.com/cms/20140116/spritesbgtop.png) no-repeat scroll 0 -675px transparent;
+                display: inline-block;
+                height: 42px;
+                width: 96px;
+            }
+            .vanclMsg{
+                background: url(http://i.vanclimg.com/cms/20140116/spritesbgtop.png) no-repeat scroll -97px -675px transparent;
+                display: inline-block;
+                height: 42px;
+                width: 101px;
+            }
+            .vanclqingNian{
+                background: url(http://i.vanclimg.com/cms/20140116/spritesbgtop.png) no-repeat scroll -202px -675px transparent;
+                display: inline-block;
+                height: 42px;
+                width: 42px;
+            }
+
+        }
+    }
+    /*vanclWindow*/
+    .bayWindow{
+        width: 73px;
+        height: 205px;
+        border: 1px solid #b81b22;
+        border-bottom: none;
+        margin-bottom: 30px;
+        ul{
+            margin:0;padding:0;
+            li{
+                width:73px;border-bottom: 1px solid #b81b22;
+                a{
+                    display: block;width:73px;
+                }
+            }
+            .downApp a{
+                height: 76px;
+                background: url(http://i2.vanclimg.com/cms/20160802/baywindow.png) no-repeat -1px -1px;
+            }
+            .online{
+                height: 71px;
+                background: url(http://i2.vanclimg.com/cms/20160802/baywindow.png) no-repeat -1px -78px;
+            }
+            .backTop{
+                height: 55px;
+                background: url(http://i2.vanclimg.com/cms/20160802/baywindow.png) no-repeat -1px -149px;
+            }
+        }
+    }
+

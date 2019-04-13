@@ -60,8 +60,15 @@ gulp.task("js", function(){
 	.pipe(connect.reload());
 })
 
+//生成php文件
+gulp.task("php", function(){
+	return gulp.src("php/*.php")
+	.pipe(gulp.dest("dist/php"))
+	.pipe(connect.reload());
+})
+
 //一次性执行多个任务
-gulp.task("build", ["copy-html", "copy-htmls", "images", "data", "scss", "js"], function(){
+gulp.task("build", ["copy-html", "copy-htmls", "images", "data", "scss", "js", "php"], function(){
 	console.log("编译成功");
 })
 
@@ -73,6 +80,7 @@ gulp.task("watch", function(){
 	gulp.watch(["*.json", "*.xml", "!package.json"], ["data"]);
 	gulp.watch("css/*.scss", ["scss"]);
 	gulp.watch("js/*.js", ["js"]);
+	gulp.watch("php/*.php", ["php"]);
 })
 
 const connect = require("gulp-connect");

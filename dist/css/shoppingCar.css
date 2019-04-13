@@ -1,0 +1,346 @@
+@charset "UTF-8";
+body {
+  font: 12px Arial,Helvetica,sans-serif,宋体;
+  width: 100%;
+  color: #333; }
+
+.wrapper {
+  margin: 0 auto;
+  width: 982px; }
+  .wrapper .headerBox {
+    border-bottom: 1px solid #7A7F89;
+    padding-top: 15px; }
+    .wrapper .headerBox a {
+      color: #333;
+      text-decoration: none; }
+    .wrapper .headerBox .logo {
+      float: left;
+      display: block;
+      height: 39px;
+      width: 311px; }
+      .wrapper .headerBox .logo img {
+        border: none;
+        vertical-align: middle; }
+    .wrapper .headerBox .help-center {
+      float: right;
+      line-height: 39px; }
+      .wrapper .headerBox .help-center a {
+        cursor: pointer;
+        line-height: 39px; }
+    .wrapper .headerBox .account {
+      margin-right: 40px;
+      color: #666;
+      display: block;
+      float: right;
+      line-height: 39px; }
+      .wrapper .headerBox .account p {
+        margin: 0;
+        padding: 0; }
+        .wrapper .headerBox .account p .login {
+          color: #a10000;
+          padding: 0 5px; }
+  .wrapper .location {
+    background: url(//ssl.vanclimg.com/shopping/newpromotions/newProm.gif);
+    background-position: 0 0;
+    height: 28px;
+    width: 540px;
+    margin-top: 10px; }
+    .wrapper .location em {
+      color: #fff;
+      display: inline-block;
+      font-weight: bold;
+      line-height: 28px;
+      text-align: center;
+      width: 170px; }
+    .wrapper .location span {
+      color: #666;
+      display: inline-block;
+      font-weight: bold;
+      line-height: 28px;
+      text-align: center;
+      width: 170px; }
+  .wrapper .content {
+    margin-top: 10px; }
+    .wrapper .content .car-gift {
+      margin: 0;
+      padding: 0; }
+      .wrapper .content .car-gift .carTop {
+        height: 30px;
+        overflow: hidden;
+        padding-left: 45px;
+        width: 935px;
+        /*background-position: -460px 0;*/
+        background: url(//ssl.vanclimg.com/shopping/newpromotions/newpromotion.gif) no-repeat -460px 0; }
+        .wrapper .content .car-gift .carTop h2 {
+          line-height: 38px;
+          margin-right: 8px;
+          font-size: 18px;
+          font-weight: bold;
+          float: left;
+          font: normal 20px Microsoft Yahei, Microsoft JHenghei, SimHei; }
+      .wrapper .content .car-gift .tip {
+        margin-top: 6px;
+        color: #656565;
+        line-height: 20px; }
+        .wrapper .content .car-gift .tip span {
+          color: #a10000; }
+      .wrapper .content .car-gift #cart {
+        margin: 0;
+        padding: 0; }
+      .wrapper .content .car-gift .car-product {
+        margin-top: 10px; }
+        .wrapper .content .car-gift .car-product .batchdelCart {
+          margin: 0;
+          padding: 0; }
+          .wrapper .content .car-gift .car-product .batchdelCart .shangpinArea {
+            width: 100%; }
+            .wrapper .content .car-gift .car-product .batchdelCart .shangpinArea .tradeName {
+              width: 100%; }
+              .wrapper .content .car-gift .car-product .batchdelCart .shangpinArea .tradeName table {
+                border-collapse: separate; }
+                .wrapper .content .car-gift .car-product .batchdelCart .shangpinArea .tradeName table tr {
+                  display: table-row;
+                  vertical-align: inherit;
+                  border-color: inherit; }
+                  .wrapper .content .car-gift .car-product .batchdelCart .shangpinArea .tradeName table tr th {
+                    border-top: 1px solid #DCDFE4;
+                    border-bottom: 1px solid #B7B7B7;
+                    height: 37px;
+                    text-align: center;
+                    vertical-align: middle;
+                    background: url(//ssl.vanclimg.com/shopping/newpromotions/carthd.png) repeat-x; }
+                  .wrapper .content .car-gift .car-product .batchdelCart .shangpinArea .tradeName table tr .title-white {
+                    font-size: 0;
+                    line-height: 0;
+                    overflow: hidden;
+                    table-layout: fixed;
+                    width: 15px; }
+                  .wrapper .content .car-gift .car-product .batchdelCart .shangpinArea .tradeName table tr .bd-left {
+                    border-left: 1px solid #DCDFE4; }
+                  .wrapper .content .car-gift .car-product .batchdelCart .shangpinArea .tradeName table tr .bar-title {
+                    text-align: left;
+                    width: 80px; }
+                    .wrapper .content .car-gift .car-product .batchdelCart .shangpinArea .tradeName table tr .bar-title #all-ckb-top {
+                      margin-right: 10px;
+                      width: 13px;
+                      height: 13px; }
+                    .wrapper .content .car-gift .car-product .batchdelCart .shangpinArea .tradeName table tr .bar-title label {
+                      cursor: default; }
+                  .wrapper .content .car-gift .car-product .batchdelCart .shangpinArea .tradeName table tr .image {
+                    width: 50px; }
+                  .wrapper .content .car-gift .car-product .batchdelCart .shangpinArea .tradeName table tr .name {
+                    width: 336px; }
+                  .wrapper .content .car-gift .car-product .batchdelCart .shangpinArea .tradeName table tr .size {
+                    width: 80px; }
+                  .wrapper .content .car-gift .car-product .batchdelCart .shangpinArea .tradeName table tr .num {
+                    width: 100px; }
+                  .wrapper .content .car-gift .car-product .batchdelCart .shangpinArea .tradeName table tr .discounts {
+                    width: 47px; }
+                  .wrapper .content .car-gift .car-product .batchdelCart .shangpinArea .tradeName table tr .subtotal {
+                    width: 97px; }
+                  .wrapper .content .car-gift .car-product .batchdelCart .shangpinArea .tradeName table tr .operate {
+                    width: 78px; }
+                  .wrapper .content .car-gift .car-product .batchdelCart .shangpinArea .tradeName table tr .bd-right {
+                    border-right: 1px solid #DCDFE4; }
+            .wrapper .content .car-gift .car-product .batchdelCart .shangpinArea .shangpinList {
+              width: 980px; }
+              .wrapper .content .car-gift .car-product .batchdelCart .shangpinArea .shangpinList tr {
+                display: table-row;
+                vertical-align: inherit;
+                border-color: inherit; }
+                .wrapper .content .car-gift .car-product .batchdelCart .shangpinArea .shangpinList tr td {
+                  text-align: center;
+                  vertical-align: middle;
+                  padding: 10px 0; }
+                .wrapper .content .car-gift .car-product .batchdelCart .shangpinArea .shangpinList tr .white {
+                  font-size: 0;
+                  line-height: 0;
+                  overflow: hidden;
+                  table-layout: fixed;
+                  width: 15px;
+                  background: white; }
+                .wrapper .content .car-gift .car-product .batchdelCart .shangpinArea .shangpinList tr .bd-left {
+                  border-left: 1px solid #DCDFE4; }
+                .wrapper .content .car-gift .car-product .batchdelCart .shangpinArea .shangpinList tr .bar {
+                  padding-left: 30px;
+                  text-align: left;
+                  width: 50px; }
+                  .wrapper .content .car-gift .car-product .batchdelCart .shangpinArea .shangpinList tr .bar .ckb {
+                    width: 13px;
+                    height: 13px; }
+                .wrapper .content .car-gift .car-product .batchdelCart .shangpinArea .shangpinList tr .image {
+                  width: 50px; }
+                  .wrapper .content .car-gift .car-product .batchdelCart .shangpinArea .shangpinList tr .image a {
+                    color: #333;
+                    text-decoration: none;
+                    cursor: pointer; }
+                    .wrapper .content .car-gift .car-product .batchdelCart .shangpinArea .shangpinList tr .image a img {
+                      height: 48px;
+                      width: 48px;
+                      border: 1px solid #C8C8C8; }
+                .wrapper .content .car-gift .car-product .batchdelCart .shangpinArea .shangpinList tr .name {
+                  padding-left: 10px;
+                  text-align: left; }
+                  .wrapper .content .car-gift .car-product .batchdelCart .shangpinArea .shangpinList tr .name a {
+                    color: #333;
+                    text-decoration: none;
+                    cursor: pointer; }
+                .wrapper .content .car-gift .car-product .batchdelCart .shangpinArea .shangpinList tr .size {
+                  width: 80px; }
+                  .wrapper .content .car-gift .car-product .batchdelCart .shangpinArea .shangpinList tr .size a {
+                    cursor: pointer; }
+                .wrapper .content .car-gift .car-product .batchdelCart .shangpinArea .shangpinList tr .price {
+                  width: 80px; }
+                .wrapper .content .car-gift .car-product .batchdelCart .shangpinArea .shangpinList tr .num {
+                  width: 100px; }
+                  .wrapper .content .car-gift .car-product .batchdelCart .shangpinArea .shangpinList tr .num .modify-qty {
+                    width: 76px;
+                    margin: 0 auto; }
+                    .wrapper .content .car-gift .car-product .batchdelCart .shangpinArea .shangpinList tr .num .modify-qty a {
+                      text-decoration: none;
+                      color: #333; }
+                    .wrapper .content .car-gift .car-product .batchdelCart .shangpinArea .shangpinList tr .num .modify-qty .decrease {
+                      background-position: -51px 0;
+                      display: inline-block;
+                      float: left;
+                      cursor: pointer;
+                      border: 0 none;
+                      height: 20px;
+                      line-height: 20px;
+                      vertical-align: middle;
+                      width: 17px;
+                      text-indent: -9999em;
+                      background: url(//ssl.vanclimg.com/shopping/shopping3/cartsprite.png) no-repeat;
+                      overflow: hidden; }
+                    .wrapper .content .car-gift .car-product .batchdelCart .shangpinArea .shangpinList tr .num .modify-qty .shangpinNum {
+                      margin: 0 5px;
+                      width: 30px;
+                      height: 18px;
+                      border: 1px solid #D8D8D8;
+                      float: left;
+                      text-align: center; }
+                    .wrapper .content .car-gift .car-product .batchdelCart .shangpinArea .shangpinList tr .num .modify-qty .increase {
+                      background-position: 0 0;
+                      display: inline-block;
+                      float: left;
+                      cursor: pointer;
+                      border: 0 none;
+                      height: 20px;
+                      line-height: 20px;
+                      vertical-align: middle;
+                      width: 17px;
+                      text-indent: -9999em;
+                      background: url(//ssl.vanclimg.com/shopping/shopping3/cartsprite.png) no-repeat;
+                      overflow: hidden; }
+              .wrapper .content .car-gift .car-product .batchdelCart .shangpinArea .shangpinList .selected {
+                background: #F8F8F8; }
+          .wrapper .content .car-gift .car-product .batchdelCart .bar-empty {
+            float: inherit;
+            padding-bottom: 10px;
+            height: 1px; }
+          .wrapper .content .car-gift .car-product .batchdelCart .bar-summary {
+            padding: 12px 10px 0px 0;
+            background: none repeat scroll 0 0 #FFFEF5;
+            border: 1px solid #EBE5BB;
+            line-height: 25px;
+            width: 968px;
+            position: relative;
+            z-index: 1; }
+            .wrapper .content .car-gift .car-product .batchdelCart .bar-summary .bar {
+              width: auto;
+              padding: 14px 42px 0 13px;
+              text-align: left; }
+              .wrapper .content .car-gift .car-product .batchdelCart .bar-summary .bar .ckb {
+                width: 13px;
+                height: 13px; }
+              .wrapper .content .car-gift .car-product .batchdelCart .bar-summary .bar .all-products-ckb {
+                margin-right: 10px; }
+              .wrapper .content .car-gift .car-product .batchdelCart .bar-summary .bar label {
+                cursor: default; }
+              .wrapper .content .car-gift .car-product .batchdelCart .bar-summary .bar a {
+                color: #333;
+                text-decoration: none; }
+              .wrapper .content .car-gift .car-product .batchdelCart .bar-summary .bar .delete {
+                background: transparent;
+                border: 0 none;
+                cursor: pointer;
+                margin-left: 20px; }
+              .wrapper .content .car-gift .car-product .batchdelCart .bar-summary .bar span {
+                padding-left: 42px; }
+                .wrapper .content .car-gift .car-product .batchdelCart .bar-summary .bar span em {
+                  color: #a10000; }
+            .wrapper .content .car-gift .car-product .batchdelCart .bar-summary .summary {
+              float: left;
+              padding: 10px 10px 10px 13px; }
+              .wrapper .content .car-gift .car-product .batchdelCart .bar-summary .summary .amount {
+                font-size: 24px;
+                margin-right: 0px;
+                color: #a10000; }
+                .wrapper .content .car-gift .car-product .batchdelCart .bar-summary .summary .amount em {
+                  font-style: normal;
+                  font-weight: bold; }
+            .wrapper .content .car-gift .car-product .batchdelCart .bar-summary .btn-panel {
+              padding: 0 0 15px 0;
+              float: right; }
+              .wrapper .content .car-gift .car-product .batchdelCart .bar-summary .btn-panel .go-buy {
+                /*background-position: -160px 0;*/
+                text-decoration: none;
+                color: #666;
+                cursor: pointer;
+                height: 37px;
+                line-height: 37px;
+                margin-left: 10px;
+                font-size: 14px;
+                text-align: center;
+                width: 122px;
+                display: inline-block;
+                vertical-align: middle;
+                background: url(//ssl.vanclimg.com/shopping/newpromotions/newpromotion.gif) no-repeat -160px 0;
+                overflow: hidden; }
+              .wrapper .content .car-gift .car-product .batchdelCart .bar-summary .btn-panel .checkout {
+                /*background-position: 0 0;*/
+                text-decoration: none;
+                color: #fff;
+                cursor: pointer;
+                height: 50px;
+                font-size: 21px;
+                line-height: 50px;
+                margin-left: 10px;
+                padding-left: 50px;
+                width: 160px;
+                display: inline-block;
+                vertical-align: middle;
+                background: url(//ssl.vanclimg.com/shopping/newpromotions/newpromotion.gif) no-repeat 0 0;
+                overflow: hidden; }
+    .wrapper .content #gift {
+      clear: both;
+      padding-top: 30px; }
+
+.footer {
+  color: #999;
+  padding: 10px 0;
+  text-align: center;
+  margin-bottom: 20px; }
+  .footer p {
+    margin-bottom: 20px; }
+  .footer .perts {
+    margin-bottom: 20px; }
+    .footer .perts a {
+      text-decoration: none;
+      color: #333;
+      cursor: pointer; }
+    .footer .perts .dzsw {
+      width: 156px;
+      height: 46px;
+      display: inline-block;
+      margin-right: 20px; }
+    .footer .perts .fzxh {
+      width: 156px;
+      height: 45px;
+      display: inline-block;
+      margin-right: 20px; }
+    .footer .perts .on315 {
+      width: 96px;
+      height: 42px;
+      display: inline-block;
+      margin-right: 20px; }
